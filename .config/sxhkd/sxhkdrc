@@ -1,0 +1,28 @@
+alt + Escape
+    pkill -USR1 -x sxhkd
+
+alt + shift + a
+    firefox
+
+alt + q
+    qutebrowser
+
+alt + shift + b
+    brave-browser-stable
+
+alt + shift + l
+    libreoffice
+
+alt + control + v
+    ./.local/scripts/vmach.sh
+
+alt + shift + y
+    ./.local/scripts/ytsubs.sh
+
+XF86AudioRaiseVolume
+    volchange.sh volup
+
+XF86AudioLowerVolume
+    volchange.sh voldown
+
+

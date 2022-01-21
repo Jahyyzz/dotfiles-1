@@ -1,0 +1,174 @@
+
+m: xterm-256color
+
+window:
+  decorations: none
+  dimentions:
+    columns: 0
+    lines: 0
+
+  position:
+    x: 0
+    y: 0
+
+  padding:
+    x: 6
+    y: 6
+
+  dynamic_padding: false
+
+
+  title: Alacritty
+
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+
+scrolling:
+  history: 5000
+
+font:
+  normal:
+    Font family: Monaco
+    # Default:
+    #   - (macOS) Menlo
+    #   - (Linux/BSD) monospace
+    #   - (Windows) Consolas
+    # family: SauceCodePro Nerd Font
+    # family: CodeNewRoman Nerd Font
+    #family: RobotoMono
+    family: Monaco
+    # family: Hack Nerd Font Mono
+    # family: JetBrains Mono
+    # family: UbuntuMono Nerd Font
+    # family: Monofur Nerd Font
+    # family: TerminessTTF Nerd Font
+    # family: Mononoki Nerd Font Mono
+    # family: Nimbus mono
+    # The `style` can be specified to pick a specific face.
+    # family: Free Mono
+  
+  style: Regular
+
+  # Bold font face
+  bold:
+    # Font family
+    #
+    # If the bold family is not specified, it will fall back to the
+    # value specified for the normal font.
+    # family: SauceCodePro Nerd Font
+    # family: CodeNewRoman Nerd Font
+    #family: Roboto
+    # family: Monaco
+    # family: Hack Nerd font Mono
+    # family: JetBrains Mono
+    # family: UbuntuMono Nerd Font
+    # family: Monofur Nerd Font
+    # family: TerminessTTF Nerd Font
+    # family: Mononoki Nerd Font
+
+    # The `style` can be specified to pick a specific face.
+    style: Bold
+
+  # Italic font face
+  italic:
+    # Font family
+    #
+    # If the italic family is not specified, it will fall back to the
+    # value specified for the normal font.
+    # family: SauceCodePro Nerd Font Mono
+    # family: CodeNewRoman Nerd Font
+    family: RobotoMono
+    # family: Hack
+    # family: JetBrains Mono
+    # family: UbuntuMono Nerd Font
+    # family: Monofuritalic Nerd Font Mono
+    # family: TerminessTTF Nerd Font
+    # family: Mononoki Nerd Font
+
+    # The `style` can be specified to pick a specific face.
+    style: Italic
+
+  # Bold italic font face
+  bold_italic:
+    # Font family
+    #
+    # If the bold italic family is not specified, it will fall back to the
+    # value specified for the normal font.
+    # family: SauceCodePro Nerd Font Mono
+    # family: CodeNewRoman Nerd Font
+    family: RobotoMono
+    # family: Hack
+    # family: JetBrains Mono
+    # family: UbuntuMono Nerd Font
+    # family: Monofuritalic Nerd Font Mono
+    # family: TerminessTTF Nerd Font
+    # family: Mononoki Nerd Font
+
+    # The `style` can be specified to pick a specific face.
+    style: Bold Italic
+
+  # Point size
+  size: 7.0
+
+  # Offset is the extra space around each character. `offset.y` can be thought of
+  # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
+  offset:
+    x: 1
+    y: 1
+
+# Oxide colors
+colors:
+    primary:
+      background: '#000000'
+      foreground: '#eeeeee'
+
+    cursor:
+      text:   '#000000'
+      cursor: '#eeeeee'
+
+    normal:
+      black:   "#171717"
+      red:     "#bc0b12"
+      green:   "#10713c"
+      yellow:  "#5b5b5b"
+      blue:    "#6688aa"
+      magenta: "#6e4e71"
+      cyan:    "#528b8b"
+      white:   '#eeeeee'
+
+
+    bright:
+      black:   '#555555'
+      red:     '#aa4450'
+      #green:   '#b5bd68'
+      green:   '#005f00'
+      yellow:  '#ffffff'
+      blue:    '#5f87af'
+      magenta: '#8f6f8f'
+      cyan:    '#528b8b'
+      white:   '#eeeeee'
+
+background_opacity: 1.0
+key_bindings:
+    # (Windows, Linux, and BSD only)
+  - { key: V,        mods: Control|Shift, action: Paste            }
+  - { key: C,        mods: Control|Shift, action: Copy             }
+  - { key: Insert,   mods: Shift,         action: PasteSelection   }
+  - { key: Key0,     mods: Control,       action: ResetFontSize    }
+  - { key: Equals,   mods: Control,       action: IncreaseFontSize }
+    #  - { key: Add,      mods: Control,       action: IncreaseFontSize }
+    #  - { key: Subtract, mods: Control,       action: DecreaseFontSize }
+  - { key: Minus,    mods: Control,       action: DecreaseFontSize }
+
+  - { key: Paste,                    action: Paste                            }
+  - { key: Copy,                     action: Copy                             }
+  - { key: L,         mods: Control, action: ClearLogNotice                   }
+  - { key: L,         mods: Control, chars: "\x0c"                            }
+  - { key: PageUp,    mods: Shift,   action: ScrollPageUp,   mode: ~Alt       }
+  - { key: PageDown,  mods: Shift,   action: ScrollPageDown, mode: ~Alt       }
+  - { key: Home,      mods: Shift,   action: ScrollToTop,    mode: ~Alt       }
+  - { key: End,       mods: Shift,   action: ScrollToBottom, mode: ~Alt       }
+
+
