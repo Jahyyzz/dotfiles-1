@@ -89,7 +89,7 @@ alias gparted="sudo gparted"
 #website
 alias webserver="ssh root@jpedmedia.com"
 alias nmoupdate="rsync -vrP --delete-after ~/notmyown/public/ root@jpedmedia.com:/var/www/notmyown"
-alias jpedupdate="rsync -vrP --delete-after ~/website/jpedmedia/ root@jpedmedia.com:/var/www/jpedmedia"
+alias jpedupdate="rsync -vrP --delete-after ~/.local/website/jpedmedia/ root@jpedmedia.com:/var/www/jpedmedia"
 alias arch="ssh 10.42.0.222"
 
 

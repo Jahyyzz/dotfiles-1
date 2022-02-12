@@ -17,6 +17,7 @@ set spell
 set showmatch
 set hlsearch
 set wildmenu
+set backspace=indent,eol,start
 set splitright
 set splitbelow
 set virtualedit=onemore
@@ -27,9 +28,9 @@ let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
 
 autocmd BufEnter * colorscheme jake
-autocmd BufEnter .*rc colorscheme jake
+autocmd BufEnter .*rc colorscheme nord
 autocmd BufEnter *.html colorscheme jake
-autocmd BufEnter *.sh colorscheme jake
+autocmd BufEnter *.sh colorscheme gruvbox
 autocmd BufEnter *.css colorscheme nord
 autocmd BufEnter *.py colorscheme jellybeans
 

@@ -4,8 +4,9 @@
 ###---------- EXPORTS ----------###
 
 export BROWSER="brave"
-export EDITOR="vim"
-export VISUAL="vim"
+#export EDITOR="vim"
+#export VISUAL="vim"
+export PROMPT_EOL_MARK=' '
 export FZF_DEFAULT_COMMAND="find -L"
 export PATH=$HOME/.local/bin/:$HOME/.local/scripts/dmenu/:$HOME/.local/scripts/:$PATH
 export LESSHISTFILE=-
@@ -42,7 +43,8 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
 
-setopt autocd
+setopt extendedglob
+#setopt autocd
 cdpath=(/ $HOME/.config $HOME/.local)
 ###---------- DECORATION ----------###
 
@@ -51,6 +53,9 @@ logo
 case "$TERM" in
     xterm-kitty)
         kitty +kitten icat --align left $HOME/Media/Pictures/logo.gif
+        printf ">---------------------< $XDG_SESSION_DESKTOP SYS INFO >------------------------<\n\n" | tr '[:lower:]' '[:upper:]'
+        cat $HOME/.local/share/sysinfo.txt; printf "\n\n"
+        printf ">----------------------------------------------------------------------<\n\n"
         ;;
     st-256color)
         pfetch
@@ -62,7 +67,7 @@ esac
 
 ###---------- PROMPT ----------###
 
-PROMPT=$'%{\e[1;90m%} \{ %{\e[1;32m%}$ %{\e[1;90m%}\} %{\e[1;37m%}\ ' 
+PROMPT=$'%{\e[1;80m%} \{ %{\e[1;32m%}$ %{\e[1;90m%}\} %{\e[1;37m%}\ ' 
 #PROMPT=$'%{\e[1;34m%}\┌─[%{\e[1;37m%}%t %D %{\e[1;34m%}]──%{\e[1;31m%}> %{\e[1;34m%}%n%{\e[1;37m%}@%{\e[1;34m%}%M: %{\e[0;37m%}$ \n%{\e[1;34m%}\└────%{\e[1;31m%}> '  
 RPROMPT=$'\$vcs_info_msg_0_ %{\e[1;32m%}\U007B%{\e[1;90m%} %~ %{\e[1;32m%}\U007D '
 

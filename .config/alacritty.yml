@@ -1,4 +1,3 @@
-
 m: xterm-256color
 
 window:
@@ -150,7 +149,7 @@ colors:
       cyan:    '#528b8b'
       white:   '#eeeeee'
 
-background_opacity: 1.0
+window-opacity: 1.0
 key_bindings:
     # (Windows, Linux, and BSD only)
   - { key: V,        mods: Control|Shift, action: Paste            }

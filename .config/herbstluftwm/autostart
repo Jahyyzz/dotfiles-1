@@ -10,6 +10,7 @@ hc emit_hook reload
 #-----------#
 picom --experimental-backend &
 xwallpaper --zoom ~/Media/Pictures/Wallpapers/Brand/Untitled.png
+xfce4-power-manager &
 
 # REMOVE ALL EXISTING KEYBINDINGS #
 #---------------------------------#
@@ -25,11 +26,8 @@ Mod=Mod1    # Use alt as the main modifier
 hc keybind $Mod-Shift-c spawn ~/.local/scripts/dmenu/herbst-logout.sh
 hc keybind $Mod-Control-r reload
 hc keybind $Mod-Shift-q close
-hc keybind $Mod-Shift-Return spawn "${TERMINAL:-alacritty}" # 
+hc keybind $Mod-Shift-Return spawn "${TERMINAL:-kitty}" # 
 hc keybind $Mod-Shift-k spawn kitty
-hc keybind $Mod-Control-c spawn $HOME/scripts/herbstchanger
-hc keybind $Mod-Control-t spawn $HOME/scripts/changer 
-hc keybind $Mod-t spawn alacritty -e ./scripts/schedule.sh
 
 # multimedia #
 #------------#
@@ -48,6 +46,11 @@ hc keybind $Mod-Control-s spawn playerctl stop
 hc keybind $Mod-Shift-w spawn bgd
 hc keybind $Mod-Control-t spawn alacritty -e "$HOME/scripts/changer"
 hc keybind $Mod-Control-y spawn ~/.local/scripts/ytsubs.sh
+hc keybind $Mod-Control-c spawn $HOME/scripts/herbstchanger
+hc keybind $Mod-Control-t spawn $HOME/scripts/changer 
+hc keybind $Mod-t spawn alacritty -e ./.local/scripts/schedule.sh
+hc keybind $Mod-w spawn $HOME/.local/scripts/windows.sh
+hc keybind $Mod-Shift-v spawn $HOME/.local/scripts/vmach.sh
 
 # run launchers #
 #---------------#
