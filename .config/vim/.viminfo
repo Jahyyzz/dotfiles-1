@@ -20,12 +20,12 @@
 $Left
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1644714280,,"q"
 :wq
 |2,0,1644698489,,"wq"
 :w
 |2,0,1644687698,,"w"
-:q
-|2,0,1644682618,,"q"
 :q!
 |2,0,1644637646,,"q!"
 :colorscheme gruvbox
@@ -153,34 +153,46 @@ $Left
 |3,0,36,0,1,0,1643813243,"<"
 
 # File marks:
-'0  89  0  ~/.local/scripts/sysinfo.sh
-|4,48,89,0,1644698489,"~/.local/scripts/sysinfo.sh"
-'1  1  10  ~/.local/scripts/sysinfo.sh
-|4,49,1,10,1644697616,"~/.local/scripts/sysinfo.sh"
+'0  45  0  ~/.config/zsh/.zshrc
+|4,48,45,0,1644714280,"~/.config/zsh/.zshrc"
+'1  89  0  ~/.local/scripts/sysinfo.sh
+|4,49,89,0,1644698489,"~/.local/scripts/sysinfo.sh"
 '2  1  10  ~/.local/scripts/sysinfo.sh
 |4,50,1,10,1644697616,"~/.local/scripts/sysinfo.sh"
-'3  56  0  ~/.config/zsh/.zshrc
-|4,51,56,0,1644692741,"~/.config/zsh/.zshrc"
-'4  94  213  ~/.local/scripts/sysinfo.sh
-|4,52,94,213,1644691467,"~/.local/scripts/sysinfo.sh"
-'5  82  213  ~/.local/scripts/sysinfo.sh
-|4,53,82,213,1644691467,"~/.local/scripts/sysinfo.sh"
-'6  80  213  ~/.local/scripts/sysinfo.sh
-|4,54,80,213,1644691467,"~/.local/scripts/sysinfo.sh"
-'7  70  213  ~/.local/scripts/sysinfo.sh
-|4,55,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
-'8  56  19  ~/.config/zsh/.zshrc
-|4,56,56,19,1644691010,"~/.config/zsh/.zshrc"
-'9  94  130  ~/.local/scripts/sysinfo.sh
-|4,57,94,130,1644690989,"~/.local/scripts/sysinfo.sh"
+'3  1  10  ~/.local/scripts/sysinfo.sh
+|4,51,1,10,1644697616,"~/.local/scripts/sysinfo.sh"
+'4  56  0  ~/.config/zsh/.zshrc
+|4,52,56,0,1644692741,"~/.config/zsh/.zshrc"
+'5  56  0  ~/.config/zsh/.zshrc
+|4,53,56,0,1644692741,"~/.config/zsh/.zshrc"
+'6  94  213  ~/.local/scripts/sysinfo.sh
+|4,54,94,213,1644691467,"~/.local/scripts/sysinfo.sh"
+'7  82  213  ~/.local/scripts/sysinfo.sh
+|4,55,82,213,1644691467,"~/.local/scripts/sysinfo.sh"
+'8  80  213  ~/.local/scripts/sysinfo.sh
+|4,56,80,213,1644691467,"~/.local/scripts/sysinfo.sh"
+'9  70  213  ~/.local/scripts/sysinfo.sh
+|4,57,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
 
 # Jumplist (newest first):
+-'  45  0  ~/.config/zsh/.zshrc
+|4,39,45,0,1644714280,"~/.config/zsh/.zshrc"
+-'  1  0  ~/.config/zsh/.zshrc
+|4,39,1,0,1644714275,"~/.config/zsh/.zshrc"
+-'  89  0  ~/.local/scripts/sysinfo.sh
+|4,39,89,0,1644698489,"~/.local/scripts/sysinfo.sh"
 -'  89  0  ~/.local/scripts/sysinfo.sh
 |4,39,89,0,1644698489,"~/.local/scripts/sysinfo.sh"
 -'  1  0  ~/.local/scripts/sysinfo.sh
 |4,39,1,0,1644697911,"~/.local/scripts/sysinfo.sh"
+-'  1  0  ~/.local/scripts/sysinfo.sh
+|4,39,1,0,1644697911,"~/.local/scripts/sysinfo.sh"
 -'  1  10  ~/.local/scripts/sysinfo.sh
 |4,39,1,10,1644697616,"~/.local/scripts/sysinfo.sh"
+-'  1  10  ~/.local/scripts/sysinfo.sh
+|4,39,1,10,1644697616,"~/.local/scripts/sysinfo.sh"
+-'  56  0  ~/.config/zsh/.zshrc
+|4,39,56,0,1644692741,"~/.config/zsh/.zshrc"
 -'  56  0  ~/.config/zsh/.zshrc
 |4,39,56,0,1644692741,"~/.config/zsh/.zshrc"
 -'  56  0  ~/.config/zsh/.zshrc
@@ -207,6 +219,20 @@ $Left
 |4,39,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
 -'  70  213  ~/.local/scripts/sysinfo.sh
 |4,39,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
+-'  94  213  ~/.local/scripts/sysinfo.sh
+|4,39,94,213,1644691467,"~/.local/scripts/sysinfo.sh"
+-'  82  213  ~/.local/scripts/sysinfo.sh
+|4,39,82,213,1644691467,"~/.local/scripts/sysinfo.sh"
+-'  80  213  ~/.local/scripts/sysinfo.sh
+|4,39,80,213,1644691467,"~/.local/scripts/sysinfo.sh"
+-'  70  213  ~/.local/scripts/sysinfo.sh
+|4,39,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
+-'  70  213  ~/.local/scripts/sysinfo.sh
+|4,39,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
+-'  1  0  ~/.local/scripts/sysinfo.sh
+|4,39,1,0,1644691135,"~/.local/scripts/sysinfo.sh"
+-'  1  0  ~/.local/scripts/sysinfo.sh
+|4,39,1,0,1644691135,"~/.local/scripts/sysinfo.sh"
 -'  1  0  ~/.local/scripts/sysinfo.sh
 |4,39,1,0,1644691135,"~/.local/scripts/sysinfo.sh"
 -'  1  0  ~/.local/scripts/sysinfo.sh
@@ -251,6 +277,10 @@ $Left
 |4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
 -'  58  24  ~/.config/zsh/.zshrc
 |4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
+-'  58  24  ~/.config/zsh/.zshrc
+|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
+-'  48  0  ~/.config/zsh/.zshrc
+|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
 -'  48  0  ~/.config/zsh/.zshrc
 |4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
 -'  48  0  ~/.config/zsh/.zshrc
@@ -299,6 +329,22 @@ $Left
 |4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
 -'  70  130  ~/.local/scripts/sysinfo.sh
 |4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
+-'  70  130  ~/.local/scripts/sysinfo.sh
+|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
+-'  70  130  ~/.local/scripts/sysinfo.sh
+|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
+-'  70  130  ~/.local/scripts/sysinfo.sh
+|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
+-'  70  130  ~/.local/scripts/sysinfo.sh
+|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
+-'  1  0  ~/.local/scripts/sysinfo.sh
+|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
+-'  1  0  ~/.local/scripts/sysinfo.sh
+|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
+-'  1  0  ~/.local/scripts/sysinfo.sh
+|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
+-'  1  0  ~/.local/scripts/sysinfo.sh
+|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
 -'  1  0  ~/.local/scripts/sysinfo.sh
 |4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
 -'  1  0  ~/.local/scripts/sysinfo.sh
@@ -315,68 +361,71 @@ $Left
 |4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
 -'  70  147  ~/.local/scripts/sysinfo.sh
 |4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
+-'  70  147  ~/.local/scripts/sysinfo.sh
+|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
+-'  70  147  ~/.local/scripts/sysinfo.sh
+|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
+-'  70  147  ~/.local/scripts/sysinfo.sh
+|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
+-'  70  147  ~/.local/scripts/sysinfo.sh
+|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
 -'  58  90  ~/.config/zsh/.zshrc
 |4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
 -'  58  90  ~/.config/zsh/.zshrc
 |4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
 -'  58  90  ~/.config/zsh/.zshrc
 |4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644690904,"~/.config/zsh/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/zsh/.zshrc
+	*	1644714276	0
+	"	45	0
+	^	58	91
+	.	56	0
+	+	45	18
+	+	47	0
+	+	55	69
+	+	55	0
+	+	55	69
+	+	55	77
+	+	59	0
+	+	55	69
+	+	55	89
+	+	55	84
+	+	55	0
+	+	56	23
+	+	45	0
+	+	46	0
+	+	8	0
+	+	9	25
+	+	56	8
+	+	56	24
+	+	56	0
+	+	57	0
+	+	56	83
+	+	57	0
+	+	56	0
+	+	56	83
+	+	58	81
+	+	58	0
+	+	57	46
+	+	58	83
+	+	57	55
+	+	56	69
+	+	55	94
+	+	55	15
+	+	55	107
+	+	55	0
+	+	57	8
+	+	58	0
+	+	58	34
+	+	57	8
+	+	58	0
+	+	56	23
+	+	58	33
+	+	56	85
+	+	56	0
 
 > ~/.local/scripts/sysinfo.sh
 	*	1644698480	0
@@ -470,55 +519,6 @@ $Left
 	+	34	0
 	+	61	0
 	+	88	0
-
-> ~/.config/zsh/.zshrc
-	*	1644691556	0
-	"	56	0
-	^	58	91
-	.	56	0
-	+	45	18
-	+	47	0
-	+	55	69
-	+	55	0
-	+	55	69
-	+	55	77
-	+	59	0
-	+	55	69
-	+	55	89
-	+	55	84
-	+	55	0
-	+	56	23
-	+	45	0
-	+	46	0
-	+	8	0
-	+	9	25
-	+	56	8
-	+	56	24
-	+	56	0
-	+	57	0
-	+	56	83
-	+	57	0
-	+	56	0
-	+	56	83
-	+	58	81
-	+	58	0
-	+	57	46
-	+	58	83
-	+	57	55
-	+	56	69
-	+	55	94
-	+	55	15
-	+	55	107
-	+	55	0
-	+	57	8
-	+	58	0
-	+	58	34
-	+	57	8
-	+	58	0
-	+	56	23
-	+	58	33
-	+	56	85
-	+	56	0
 
 > ~/.local/share/sysinfo.txt
 	*	1644683946	0
