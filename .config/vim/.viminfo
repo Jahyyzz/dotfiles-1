@@ -11,29 +11,65 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/autocd
+~MSle0~/Mod-s
 
 # Last Substitute Search Pattern:
-~MSle0&left
+~MSle0&Monaco
 
 # Last Substitute String:
-$Left
+$Hermit
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1644714280,,"q"
 :wq
-|2,0,1644698489,,"wq"
+|2,0,1645734600,,"wq"
 :w
-|2,0,1644687698,,"w"
+|2,0,1645727853,,"w"
+:q
+|2,0,1645679860,,"q"
+:W
+|2,0,1645677413,,"W"
+:%s/Monaco/Hermit/g
+|2,0,1645561744,,"%s/Monaco/Hermit/g"
+:w promptcom.sh
+|2,0,1645335813,,"w promptcom.sh"
+:new
+|2,0,1645335588,,"new"
 :q!
-|2,0,1644637646,,"q!"
+|2,0,1645248205,,"q!"
 :colorscheme gruvbox
-|2,0,1644610938,,"colorscheme gruvbox"
+|2,0,1645213856,,"colorscheme gruvbox"
+:colorscheme paramount
+|2,0,1645212720,,"colorscheme paramount"
+:PluginInstall
+|2,0,1645162133,,"PluginInstall"
+::q
+|2,0,1645162094,,":q"
+:ALEToggle
+|2,0,1645162049,,"ALEToggle"
+:aletoggle
+|2,0,1645162036,,"aletoggle"
+:AleToggle
+|2,0,1645162032,,"AleToggle"
+:PlugInstall
+|2,0,1645161923,,"PlugInstall"
+:pluginInstall
+|2,0,1645161210,,"pluginInstall"
+:split settings.py
+|2,0,1645134543,,"split settings.py"
+:split 
+|2,0,1645134534,,"split "
+:snew settings.py
+|2,0,1645134528,,"snew settings.py"
+:'<,'>q
+|2,0,1645120353,,"'<,'>q"
+:w!
+|2,0,1645039003,,"w!"
+:%s/railscast/jake/g
+|2,0,1644811740,,"%s/railscast/jake/g"
+:.,.+1q
+|2,0,1644811486,,".,.+1q"
 :%s/echo/printf/g
 |2,0,1644610122,,"%s/echo/printf/g"
-:w!
-|2,0,1644430810,,"w!"
 :%s/left/Left/g
 |2,0,1644412791,,"%s/left/Left/g"
 :i
@@ -52,6 +88,96 @@ $Left
 |2,0,1643817820,,"snew "
 
 # Search String History (newest to oldest):
+?/ga
+|2,1,1645730438,47,"ga"
+?/Mod-s
+|2,1,1645679698,47,"Mod-s"
+?/Mod-l
+|2,1,1645679679,47,"Mod-l"
+?/ewmh
+|2,1,1645676740,47,"ewmh"
+?/border
+|2,1,1645673730,47,"border"
+?/update
+|2,1,1645673096,47,"update"
+?/pacupd
+|2,1,1645673093,47,"pacupd"
+?/wlan
+|2,1,1645673038,47,"wlan"
+?/date
+|2,1,1645672956,47,"date"
+?/batt
+|2,1,1645622545,47,"batt"
+?/xwindow
+|2,1,1645570467,47,"xwindow"
+?/battery
+|2,1,1645570157,47,"battery"
+?/pulse
+|2,1,1645570039,47,"pulse"
+?/pulseaudio
+|2,1,1645569630,47,"pulseaudio"
+?/Hermit
+|2,1,1645561838,47,"Hermit"
+? Monaco
+|2,1,1645561744,,"Monaco"
+?/tabbrowser
+|2,1,1645499678,47,"tabbrowser"
+?/Monaco
+|2,1,1645499645,47,"Monaco"
+?/monaco
+|2,1,1645499578,47,"monaco"
+?/para
+|2,1,1645287968,47,"para"
+?/subtle_black
+|2,1,1645249832,47,"subtle_black"
+?/cursor
+|2,1,1645243499,47,"cursor"
+?/cursorline
+|2,1,1645243496,47,"cursorline"
+?/wm
+|2,1,1645221782,47,"wm"
+?/88
+|2,1,1645201368,47,"88"
+?/right
+|2,1,1645157807,47,"right"
+?/urlbar
+|2,1,1645157408,47,"urlbar"
+?/center
+|2,1,1645157390,47,"center"
+?/revers
+|2,1,1645069567,47,"revers"
+?/orange
+|2,1,1644985755,47,"orange"
+?/green
+|2,1,1644985573,47,"green"
+?/Green
+|2,1,1644985567,47,"Green"
+?/yellow
+|2,1,1644985538,47,"yellow"
+?/nuclear
+|2,1,1644968248,47,"nuclear"
+?/kitty
+|2,1,1644948531,47,"kitty"
+?/alacritty
+|2,1,1644948528,47,"alacritty"
+?/alac
+|2,1,1644948435,47,"alac"
+?/Error
+|2,1,1644901158,47,"Error"
+?/bad
+|2,1,1644901061,47,"bad"
+?/spell
+|2,1,1644901058,47,"spell"
+?/error
+|2,1,1644901053,47,"error"
+?/preselect
+|2,1,1644874887,47,"preselect"
+?/polybar
+|2,1,1644869772,47,"polybar"
+? railscast
+|2,1,1644811740,,"railscast"
+?/comment
+|2,1,1644811298,47,"comment"
 ?/background_opaci
 |2,1,1644634186,47,"background_opaci"
 ? echo
@@ -62,54 +188,6 @@ $Left
 |2,1,1644412791,,"left"
 ?/alt + Retur
 |2,1,1644378369,47,"alt + Retur"
-?/alt + R
-|2,1,1644378295,47,"alt + R"
-? \<color1\>
-|2,1,1644350592,,"\\<color1\\>"
-?/tomlink
-|2,1,1644198088,47,"tomlink"
-?/abour
-|2,1,1644192833,47,"abour"
-?/about
-|2,1,1644192804,47,"about"
-?/footer
-|2,1,1644099986,47,"footer"
-?/* Style the button that is used to open and close the collapsible content */
-|2,1,1644099650,47,"* Style the button that is used to open and close the collapsible content */"
-?/about-me
-|2,1,1644081475,47,"about-me"
-?/glitch
-|2,1,1644081124,47,"glitch"
-?/tab
-|2,1,1644079804,47,"tab"
-?/favicon
-|2,1,1644079799,47,"favicon"
-?/favicom
-|2,1,1644079768,47,"favicom"
-?/rsync 
-|2,1,1643862137,47,"rsync "
-?/wiggl
-|2,1,1643862017,47,"wiggl"
-?/introduction
-|2,1,1643858310,47,"introduction"
-?/windowc
-|2,1,1643827153,47,"windowc"
-?/windows.s
-|2,1,1643827147,47,"windows.s"
-?/windows
-|2,1,1643827135,47,"windows"
-?/widnows
-|2,1,1643819108,47,"widnows"
-?/window
-|2,1,1643819563,47,"window"
-?/Tom on the Internet
-|2,1,1643776353,47,"Tom on the Internet"
-?/Tom
-|2,1,1643776192,47,"Tom"
-?/jake
-|2,1,1643740297,47,"jake"
-?/border
-|2,1,1643550083,47,"border"
 
 # Expression History (newest to oldest):
 
@@ -118,269 +196,1309 @@ $Left
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	["; printf "pkgs - "; pkg_count; printf "]"
-|3,1,0,0,1,0,1644687663,"[\"; printf \"pkgs - \"; pkg_count; printf \"]\""
-"1	LINE	0
-	        ./.local/scripts/sysinfo.sh
-|3,0,1,1,1,0,1644690819,"        ./.local/scripts/sysinfo.sh"
-"2	LINE	0
-	        printf ">----------------------------WELCOME TO THE VOID! ------------------------------------</n/n"
-|3,0,2,1,1,0,1644686550,"        printf \">----------------------------WELCOME TO THE VOID! ------------------------------------</n/n\""
-"3	LINE	0
+"0	CHAR	0
+	[module/pacman-updates]
+	type = custom/script
+	;exec = pacman -Qu | wc -l
+	exec = xbps-install -nuM | wc -l
+	interval = 1000
+	label = " Repo: %output% "
+	label-foreground = ${colors.foreground-alt4}
+	label-background = ${colors.foreground}
+	format-foreground = ${colors.foreground}
+	format-background = ${colors.background}
+	format-prefix = " ïƒ­ "
+	format-prefix-background = ${colors.foreground-alt4}
+	format-prefix-foreground = ${colors.foreground}
 	
-|3,0,3,1,1,0,1644684031,""
-"4	LINE	0
+|3,0,0,0,14,0,1645673112,"[module/pacman-updates]","type = custom/script",";exec = pacman -Qu | wc -l","exec = xbps-install -nuM | wc -l","interval = 1000","label = \" Repo: %output% \"","label-foreground = ${colors.foreground-alt4}","label-background = ${colors.foreground}","format-foreground = ${colors.foreground}","format-background = ${colors.background}","format-prefix = \" ïƒ­ \"","format-prefix-background = ${colors.foreground-alt4}",>49
+|<"format-prefix-foreground = ${colors.foreground}",""
+""1	LINE	0
+	rep "hc set window_gap" $HOME/.config/herbstluftwm/autostart
+|3,1,1,1,1,0,1645731029,"rep \"hc set window_gap\" $HOME/.config/herbstluftwm/autostart"
+"2	CHAR	0
+	#include <gtk/gtk.h>
 	
-|3,0,4,1,1,0,1644684003,""
-"5	LINE	0
-	printf ">---------------------------- $XDG_SESSION_DESKTOP -------------------------------<\n\n"
-|3,0,5,1,1,0,1644684002,"printf \">---------------------------- $XDG_SESSION_DESKTOP -------------------------------<\\n\\n\""
+	static int counter = 0;
+	
+	void greet( GtkWidget *widget, gpointer   data )
+	{
+	   // printf equivalent in GTK+
+	   g_print ("Hi there! Welcome to GTK\n");
+	   g_print ("%s clicked %d times\n",
+	      (char*)data, ++counter);
+	}
+	
+	void destroy( GtkWidget *widget,gpointer   data )
+	{
+	   gtk_main_quit ();
+	}
+	
+	int main( int   argc,char *argv[] )
+	{
+	
+	   GtkWidget *window;
+	   GtkWidget *button;
+	   gtk_init (&argc, &argv);
+	
+	   window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
+	
+	   g_signal_connect (window, "destroy",
+	   G_CALLBACK (destroy), NULL);
+	   /* Let's set the border width of the window to 20.
+	    * You may play with the value and see the
+	    * difference. */
+	   gtk_container_set_border_width
+	      (GTK_CONTAINER (window), 20);
+	
+	   button = gtk_button_new_with_label ("Click Me!");
+	
+	   g_signal_connect (GTK_OBJECT(button),
+	      "clicked",G_CALLBACK (greet),
+	      "button");
+	
+	   gtk_container_add (GTK_CONTAINER (window), button);
+	
+	   gtk_widget_show_all(window); 
+	
+	   gtk_main ();
+	
+	   return 0;
+	}
+|3,0,2,0,48,0,1645678351,"#include <gtk/gtk.h>","","static int counter = 0;","","void greet( GtkWidget *widget, gpointer   data )","{","   // printf equivalent in GTK+","   g_print (\"Hi there! Welcome to GTK\\n\");","   g_print (\"%s clicked %d times\\n\",","      (char*)data, ++counter);","}","","void destroy( GtkWidget *widget,gpointer   data )","{","   gtk_main_quit ();","}","","int main( int   argc,char *argv[] )","{","","   GtkWidget *window;",>23
+|<"   GtkWidget *button;","   gtk_init (&argc, &argv);","","   window = gtk_window_new (GTK_WINDOW_TOPLEVEL);","","   g_signal_connect (window, \"destroy\",","   G_CALLBACK (destroy), NULL);","   /* Let's set the border width of the window to 20.","    * You may play with the value and see the","    * difference. */","   gtk_container_set_border_width","      (GTK_CONTAINER (window), 20);","","   button = gtk_button_new_with_label (\"Click Me!\");","",>42
+|<"   g_signal_connect (GTK_OBJECT(button),","      \"clicked\",G_CALLBACK (greet),","      \"button\");","","   gtk_container_add (GTK_CONTAINER (window), button);","","   gtk_widget_show_all(window); ","","   gtk_main ();","","   return 0;","}"
+"3	BLOCK	28
+	                             
+	                             
+	                             
+	                             
+	                             
+	                             
+	                             
+	                             
+	                             
+|3,0,3,2,9,28,1645673976,"                             ","                             ","                             ","                             ","                             ","                             ","                             ","                             ","                             "
+"4	CHAR	0
+	ramp-signal-0 = îˆ˜
+	ramp-signal-1 = îˆ™
+	ramp-signal-2 = îˆš
+	ramp-signal-3 = îˆš
+	ramp-signal-4 = îˆš
+	
+|3,0,4,0,6,0,1645673069,"ramp-signal-0 = îˆ˜","ramp-signal-1 = îˆ™","ramp-signal-2 = îˆš","ramp-signal-3 = îˆš","ramp-signal-4 = îˆš",""
+"5	CHAR	0
+	format-prefix = î€–
+	
+|3,0,5,0,2,0,1645672987,"format-prefix = î€–",""
 "6	LINE	0
-	        ./sysinfo.sh
-|3,0,6,1,1,0,1644586228,"        ./sysinfo.sh"
-"7	LINE	0
-	    os=$(uname -o)
-|3,0,7,1,1,0,1644557175,"    os=$(uname -o)"
+	
+|3,0,6,1,1,0,1645668786,""
+"7	CHAR	0
+	void destroy( GtkWidget *widget, gpointer data )
+	{
+	    gtk_main_quit ();
+	}
+	
+	
+|3,0,7,0,6,0,1645668709,"void destroy( GtkWidget *widget, gpointer data )","{","    gtk_main_quit ();","}","",""
 "8	LINE	0
-	    pkg_count && find_init >> output.txt
-|3,0,8,1,1,0,1644556813,"    pkg_count && find_init >> output.txt"
-"9	LINE	0
-	    pkg_count && find_init >> output.txt
-|3,0,9,1,1,0,1644556813,"    pkg_count && find_init >> output.txt"
+	
+|3,0,8,1,1,0,1645668423,""
+"9	CHAR	0
+	void greet( GtkWidget *widget, gpointer data )
+	{
+	    g_print ("Hi There! Welcome to My Window\n");
+	    g-print ("%s clicked %d times\n",
+	        (char*)data, ++counter);
+	}
+	
+|3,0,9,0,7,0,1645668404,"void greet( GtkWidget *widget, gpointer data )","{","    g_print (\"Hi There! Welcome to My Window\\n\");","    g-print (\"%s clicked %d times\\n\",","        (char*)data, ++counter);","}",""
+"i	CHAR	0
+	€kr€kr€kr€kr€kr€kb€kb€kb€kr€kr€kri€kb€kb€kb€kb€ýau€kd€ku
+|3,0,18,0,1,0,1645129660,"€kr€kr€kr€kr€kr€kb€kb€kb€kr€kr€kri€kb€kb€kb€kb€ýau€kd€ku"
+"q@	CHAR	0
+	i€kb€kb€kb€kbec€kb€kbECHO€kd€ýa
+|3,2,26,0,1,0,1645129679,"i€kb€kb€kb€kbec€kb€kbECHO€kd€ýa"
 "-	CHAR	0
-	<
-|3,0,36,0,1,0,1643813243,"<"
+	 
+|3,0,36,0,1,0,1645555576," "
 
 # File marks:
-'0  45  0  ~/.config/zsh/.zshrc
-|4,48,45,0,1644714280,"~/.config/zsh/.zshrc"
-'1  89  0  ~/.local/scripts/sysinfo.sh
-|4,49,89,0,1644698489,"~/.local/scripts/sysinfo.sh"
-'2  1  10  ~/.local/scripts/sysinfo.sh
-|4,50,1,10,1644697616,"~/.local/scripts/sysinfo.sh"
-'3  1  10  ~/.local/scripts/sysinfo.sh
-|4,51,1,10,1644697616,"~/.local/scripts/sysinfo.sh"
-'4  56  0  ~/.config/zsh/.zshrc
-|4,52,56,0,1644692741,"~/.config/zsh/.zshrc"
-'5  56  0  ~/.config/zsh/.zshrc
-|4,53,56,0,1644692741,"~/.config/zsh/.zshrc"
-'6  94  213  ~/.local/scripts/sysinfo.sh
-|4,54,94,213,1644691467,"~/.local/scripts/sysinfo.sh"
-'7  82  213  ~/.local/scripts/sysinfo.sh
-|4,55,82,213,1644691467,"~/.local/scripts/sysinfo.sh"
-'8  80  213  ~/.local/scripts/sysinfo.sh
-|4,56,80,213,1644691467,"~/.local/scripts/sysinfo.sh"
-'9  70  213  ~/.local/scripts/sysinfo.sh
-|4,57,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
+'0  5  12  ~/.local/scripts/gaps.sh
+|4,48,5,12,1645736657,"~/.local/scripts/gaps.sh"
+'1  1  0  ~/.config/herbstluftwm/autostart
+|4,49,1,0,1645736614,"~/.config/herbstluftwm/autostart"
+'2  8  76  ~/store
+|4,50,8,76,1645734600,"~/store"
+'3  17  37  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,51,17,37,1645727854,"~/.config/suckless/dmenu-5.0/config.def.h"
+'4  16  36  ~/.config/suckless/dmenu-5.0/config.h
+|4,52,16,36,1645727304,"~/.config/suckless/dmenu-5.0/config.h"
+'5  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,53,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+'6  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,54,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+'7  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,55,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+'8  43  0  ~/.config/polybar/config
+|4,56,43,0,1645723591,"~/.config/polybar/config"
+'9  121  12  ~/.config/herbstluftwm/autostart
+|4,57,121,12,1645679913,"~/.config/herbstluftwm/autostart"
 
 # Jumplist (newest first):
--'  45  0  ~/.config/zsh/.zshrc
-|4,39,45,0,1644714280,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644714275,"~/.config/zsh/.zshrc"
--'  89  0  ~/.local/scripts/sysinfo.sh
-|4,39,89,0,1644698489,"~/.local/scripts/sysinfo.sh"
--'  89  0  ~/.local/scripts/sysinfo.sh
-|4,39,89,0,1644698489,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644697911,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644697911,"~/.local/scripts/sysinfo.sh"
--'  1  10  ~/.local/scripts/sysinfo.sh
-|4,39,1,10,1644697616,"~/.local/scripts/sysinfo.sh"
--'  1  10  ~/.local/scripts/sysinfo.sh
-|4,39,1,10,1644697616,"~/.local/scripts/sysinfo.sh"
--'  56  0  ~/.config/zsh/.zshrc
-|4,39,56,0,1644692741,"~/.config/zsh/.zshrc"
--'  56  0  ~/.config/zsh/.zshrc
-|4,39,56,0,1644692741,"~/.config/zsh/.zshrc"
--'  56  0  ~/.config/zsh/.zshrc
-|4,39,56,0,1644692741,"~/.config/zsh/.zshrc"
--'  56  0  ~/.config/zsh/.zshrc
-|4,39,56,0,1644692741,"~/.config/zsh/.zshrc"
--'  56  0  ~/.config/zsh/.zshrc
-|4,39,56,0,1644692741,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691472,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691472,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691472,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691472,"~/.config/zsh/.zshrc"
--'  94  213  ~/.local/scripts/sysinfo.sh
-|4,39,94,213,1644691467,"~/.local/scripts/sysinfo.sh"
--'  82  213  ~/.local/scripts/sysinfo.sh
-|4,39,82,213,1644691467,"~/.local/scripts/sysinfo.sh"
--'  80  213  ~/.local/scripts/sysinfo.sh
-|4,39,80,213,1644691467,"~/.local/scripts/sysinfo.sh"
--'  70  213  ~/.local/scripts/sysinfo.sh
-|4,39,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
--'  70  213  ~/.local/scripts/sysinfo.sh
-|4,39,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
--'  94  213  ~/.local/scripts/sysinfo.sh
-|4,39,94,213,1644691467,"~/.local/scripts/sysinfo.sh"
--'  82  213  ~/.local/scripts/sysinfo.sh
-|4,39,82,213,1644691467,"~/.local/scripts/sysinfo.sh"
--'  80  213  ~/.local/scripts/sysinfo.sh
-|4,39,80,213,1644691467,"~/.local/scripts/sysinfo.sh"
--'  70  213  ~/.local/scripts/sysinfo.sh
-|4,39,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
--'  70  213  ~/.local/scripts/sysinfo.sh
-|4,39,70,213,1644691467,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644691135,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644691135,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644691135,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644691135,"~/.local/scripts/sysinfo.sh"
--'  56  19  ~/.config/zsh/.zshrc
-|4,39,56,19,1644691010,"~/.config/zsh/.zshrc"
--'  56  19  ~/.config/zsh/.zshrc
-|4,39,56,19,1644691010,"~/.config/zsh/.zshrc"
--'  56  19  ~/.config/zsh/.zshrc
-|4,39,56,19,1644691010,"~/.config/zsh/.zshrc"
--'  56  19  ~/.config/zsh/.zshrc
-|4,39,56,19,1644691010,"~/.config/zsh/.zshrc"
--'  56  19  ~/.config/zsh/.zshrc
-|4,39,56,19,1644691010,"~/.config/zsh/.zshrc"
--'  56  19  ~/.config/zsh/.zshrc
-|4,39,56,19,1644691010,"~/.config/zsh/.zshrc"
--'  56  19  ~/.config/zsh/.zshrc
-|4,39,56,19,1644691010,"~/.config/zsh/.zshrc"
--'  56  19  ~/.config/zsh/.zshrc
-|4,39,56,19,1644691010,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  58  24  ~/.config/zsh/.zshrc
-|4,39,58,24,1644691008,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  48  0  ~/.config/zsh/.zshrc
-|4,39,48,0,1644691004,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691001,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691001,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691001,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691001,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691001,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691001,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691001,"~/.config/zsh/.zshrc"
--'  1  0  ~/.config/zsh/.zshrc
-|4,39,1,0,1644691001,"~/.config/zsh/.zshrc"
--'  70  130  ~/.local/scripts/sysinfo.sh
-|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
--'  70  130  ~/.local/scripts/sysinfo.sh
-|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
--'  70  130  ~/.local/scripts/sysinfo.sh
-|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
--'  70  130  ~/.local/scripts/sysinfo.sh
-|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
--'  70  130  ~/.local/scripts/sysinfo.sh
-|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
--'  70  130  ~/.local/scripts/sysinfo.sh
-|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
--'  70  130  ~/.local/scripts/sysinfo.sh
-|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
--'  70  130  ~/.local/scripts/sysinfo.sh
-|4,39,70,130,1644690989,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
--'  1  0  ~/.local/scripts/sysinfo.sh
-|4,39,1,0,1644690963,"~/.local/scripts/sysinfo.sh"
--'  70  147  ~/.local/scripts/sysinfo.sh
-|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
--'  70  147  ~/.local/scripts/sysinfo.sh
-|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
--'  70  147  ~/.local/scripts/sysinfo.sh
-|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
--'  70  147  ~/.local/scripts/sysinfo.sh
-|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
--'  70  147  ~/.local/scripts/sysinfo.sh
-|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
--'  70  147  ~/.local/scripts/sysinfo.sh
-|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
--'  70  147  ~/.local/scripts/sysinfo.sh
-|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
--'  70  147  ~/.local/scripts/sysinfo.sh
-|4,39,70,147,1644690942,"~/.local/scripts/sysinfo.sh"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
--'  58  90  ~/.config/zsh/.zshrc
-|4,39,58,90,1644690922,"~/.config/zsh/.zshrc"
+-'  5  12  ~/.local/scripts/gaps.sh
+|4,39,5,12,1645736657,"~/.local/scripts/gaps.sh"
+-'  1  0  ~/.config/herbstluftwm/autostart
+|4,39,1,0,1645736614,"~/.config/herbstluftwm/autostart"
+-'  8  76  ~/store
+|4,39,8,76,1645734600,"~/store"
+-'  1  0  ~/store
+|4,39,1,0,1645734590,"~/store"
+-'  6  0  ~/.local/scripts/gaps.sh
+|4,39,6,0,1645731034,"~/.local/scripts/gaps.sh"
+-'  1  0  ~/.local/scripts/gaps.sh
+|4,39,1,0,1645730397,"~/.local/scripts/gaps.sh"
+-'  17  37  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,17,37,1645727854,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  17  37  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,17,37,1645727854,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  17  37  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,17,37,1645727854,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  17  37  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,17,37,1645727854,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727835,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727835,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727835,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727835,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,16,36,1645727304,"~/.config/suckless/dmenu-5.0/config.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,16,36,1645727304,"~/.config/suckless/dmenu-5.0/config.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,16,36,1645727304,"~/.config/suckless/dmenu-5.0/config.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,16,36,1645727304,"~/.config/suckless/dmenu-5.0/config.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,16,36,1645727304,"~/.config/suckless/dmenu-5.0/config.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,16,36,1645727304,"~/.config/suckless/dmenu-5.0/config.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,16,36,1645727304,"~/.config/suckless/dmenu-5.0/config.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,16,36,1645727304,"~/.config/suckless/dmenu-5.0/config.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,1,0,1645727286,"~/.config/suckless/dmenu-5.0/config.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,1,0,1645727286,"~/.config/suckless/dmenu-5.0/config.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,1,0,1645727286,"~/.config/suckless/dmenu-5.0/config.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,1,0,1645727286,"~/.config/suckless/dmenu-5.0/config.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,1,0,1645727286,"~/.config/suckless/dmenu-5.0/config.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,1,0,1645727286,"~/.config/suckless/dmenu-5.0/config.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,1,0,1645727286,"~/.config/suckless/dmenu-5.0/config.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.h
+|4,39,1,0,1645727286,"~/.config/suckless/dmenu-5.0/config.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  16  36  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,16,36,1645727280,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727216,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727216,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727216,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727216,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727216,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727216,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727216,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  1  0  ~/.config/suckless/dmenu-5.0/config.def.h
+|4,39,1,0,1645727216,"~/.config/suckless/dmenu-5.0/config.def.h"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  4  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,4,0,1645727193,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
+-'  1  0  ~/.local/scripts/dmenu/herbst-logout.sh
+|4,39,1,0,1645727096,"~/.local/scripts/dmenu/herbst-logout.sh"
 
 # History of marks within files (newest to oldest):
 
+> ~/store
+	*	1645734598	0
+	"	8	76
+	^	8	77
+	.	8	76
+	+	8	76
+
+> ~/.local/scripts/gaps.sh
+	*	1645733569	0
+	"	5	12
+	^	5	13
+	.	5	13
+	+	6	0
+	+	5	13
+
+> ~/.config/herbstluftwm/autostart
+	*	1645730438	0
+	"	1	0
+	^	58	117
+	.	58	116
+	+	53	51
+	+	53	0
+	+	14	23
+	+	30	52
+	+	12	59
+	+	165	34
+	+	164	34
+	+	177	19
+	+	179	36
+	+	180	35
+	+	58	116
+
+> ~/.config/suckless/dmenu-5.0/config.def.h
+	*	1645727853	0
+	"	17	37
+	^	17	38
+	.	17	37
+	+	9	2
+	+	16	36
+	+	17	37
+
+> ~/.config/suckless/dmenu-5.0/config.h
+	*	1645727302	0
+	"	16	36
+	^	16	37
+	.	16	36
+	+	9	2
+	+	16	36
+
+> ~/.local/scripts/dmenu/herbst-logout.sh
+	*	1645727157	0
+	"	4	0
+	^	3	129
+	.	3	128
+	+	7	30
+	+	10	19
+	+	7	30
+	+	14	16
+	+	3	128
+
+> ~/.config/polybar/config
+	*	1645723583	0
+	"	43	0
+	^	43	1
+	.	43	0
+	+	271	20
+	+	271	61
+	+	16	5
+	+	84	0
+	+	14	44
+	+	374	18
+	+	374	61
+	+	374	63
+	+	374	57
+	+	84	0
+	+	41	0
+	+	84	0
+	+	89	43
+	+	125	44
+	+	85	51
+	+	28	0
+	+	208	32
+	+	214	51
+	+	117	50
+	+	118	50
+	+	125	0
+	+	130	56
+	+	131	52
+	+	132	0
+	+	134	0
+	+	136	0
+	+	133	57
+	+	134	50
+	+	135	57
+	+	137	50
+	+	141	57
+	+	158	57
+	+	166	56
+	+	28	67
+	+	31	76
+	+	32	74
+	+	56	0
+	+	59	0
+	+	56	23
+	+	58	46
+	+	3	23
+	+	214	46
+	+	5	23
+	+	19	15
+	+	23	17
+	+	24	0
+	+	11	10
+	+	9	7
+	+	11	10
+	+	9	11
+	+	13	0
+	+	2	15
+	+	19	14
+	+	221	45
+	+	209	45
+	+	132	51
+	+	2	0
+	+	208	45
+	+	210	0
+	+	207	23
+	+	213	24
+	+	217	0
+	+	213	17
+	+	203	15
+	+	104	13
+	+	89	0
+	+	231	0
+	+	242	45
+	+	237	38
+	+	238	31
+	+	40	30
+	+	3	23
+	+	58	49
+	+	95	47
+	+	105	49
+	+	121	41
+	+	122	60
+	+	123	50
+	+	157	60
+	+	165	60
+	+	149	60
+	+	140	60
+	+	121	43
+	+	113	61
+	+	208	48
+	+	243	49
+	+	4	19
+	+	2	14
+	+	20	34
+	+	9	11
+	+	19	0
+	+	28	7
+	+	244	21
+	+	112	40
+	+	119	41
+	+	112	0
+	+	119	0
+	+	55	25
+	+	42	0
+	+	43	0
+
+> ~/.local/scripts/load-layout.sh
+	*	1645679911	0
+	"	1	0
+	^	3	140
+	.	3	139
+	+	3	139
+
+> ~/.local/scripts/new-layout.sh
+	*	1645679881	0
+	"	3	14
+	^	3	15
+	.	3	14
+	+	3	14
+
+> ~/.local/scripts/dmenu/layouts.sh
+	*	1645679408	0
+	"	8	140
+	^	8	141
+	.	8	140
+	+	8	140
+
+> ~/.local/scripts/dmenu/edit_configs.sh
+	*	1645679229	0
+	"	26	68
+	^	26	68
+	.	26	67
+	+	5	0
+	+	43	38
+	+	91	33
+	+	79	35
+	+	78	12
+	+	79	56
+	+	76	33
+	+	70	38
+	+	26	142
+	+	26	67
+
+> ~/.local/project/c++/window/window.cpp
+	*	1645678968	0
+	"	26	45
+	^	26	46
+	.	26	45
+	+	2	0
+	+	66	1
+	+	26	45
+
+> ~/.local/project/c++/window/.local/project/c++/window/window.cpp
+	*	1645678929	0
+	"	1	0
+
+> ~/.local/project/c++/window/window
+	*	1645678763	0
+	"	1	0
+
+> ~/.vim/colors/paramount.vim
+	*	1645677685	0
+	"	189	0
+	^	190	38
+	.	190	38
+	+	31	0
+	+	32	56
+	+	139	0
+	+	205	48
+	+	32	0
+	+	175	60
+	+	176	68
+	+	178	67
+	+	176	67
+	+	176	62
+	+	90	0
+	+	97	0
+	+	87	69
+	+	85	0
+	+	97	0
+	+	85	0
+	+	87	0
+	+	156	0
+	+	138	0
+	+	55	0
+	+	138	0
+	+	97	0
+	+	151	81
+	+	151	0
+	+	157	0
+	+	190	49
+	+	53	0
+	+	55	35
+	+	26	40
+	+	190	0
+	+	22	55
+	+	190	46
+	+	68	0
+	+	68	36
+	+	32	63
+	+	190	41
+	+	56	0
+	+	32	0
+	+	68	0
+	+	190	38
+
+> ~/.config/polybar/config.bkp
+	*	1645673604	0
+	"	421	0
+
+> ~/NERD_tree_1
+	*	1645672941	0
+	"	36	0
+	.	1	0
+	+	1	0
+
+> ~/.local/project/c++/gtk/gtk.cpp
+	*	1645671690	0
+	"	48	0
+	^	48	1
+	.	48	0
+	+	1	18
+	+	1	0
+	+	1	80
+	+	1	33
+	+	1	22
+	+	1	92
+	+	1	99
+	+	1	19
+	+	1	104
+	+	1	10
+	+	1	24
+	+	1	0
+	+	1	3
+	+	1	0
+	+	1	3
+	+	1	4
+	+	1	1
+	+	1	20
+	+	48	0
+
+> /usr/include/gtk-3.0/gtk/gtk.h
+	*	1645671397	0
+	"	257	0
+
+> ~/.local/project/c++/vol1.cpp
+	*	1645671302	0
+	"	2	0
+	.	2	0
+	+	2	0
+
+> ~/.bashrc
+	*	1645657572	0
+	"	59	96
+	^	59	97
+	.	59	97
+	+	50	17
+	+	33	34
+	+	50	126
+	+	15	22
+	+	18	86
+	+	15	16
+	+	181	35
+	+	175	31
+	+	176	31
+	+	181	33
+	+	16	40
+	+	17	88
+	+	18	57
+	+	19	87
+	+	17	91
+	+	16	76
+	+	8	0
+	+	10	0
+	+	8	0
+	+	159	33
+	+	141	52
+	+	16	16
+	+	175	6
+	+	176	6
+	+	177	6
+	+	178	6
+	+	179	6
+	+	180	6
+	+	175	0
+	+	182	0
+	+	182	30
+	+	182	20
+	+	182	0
+	+	181	33
+	+	176	0
+	+	183	10
+	+	175	0
+	+	182	0
+	+	183	10
+	+	183	9
+	+	183	8
+	+	183	10
+	+	183	6
+	+	183	11
+	+	183	0
+	+	183	7
+	+	183	0
+	+	28	0
+	+	29	0
+	+	16	26
+	+	17	23
+	+	19	25
+	+	13	8
+	+	50	51
+	+	13	8
+	+	50	112
+	+	13	0
+	+	50	16
+	+	50	85
+	+	50	0
+	+	50	97
+	+	50	4
+	+	50	3
+	+	50	51
+	+	50	19
+	+	50	97
+	+	50	0
+	+	50	117
+	+	50	0
+	+	50	99
+	+	50	0
+	+	50	96
+	+	50	0
+	+	50	1
+	+	50	17
+	+	50	14
+	+	50	0
+	+	50	98
+	+	50	0
+	+	65	96
+	+	50	0
+	+	57	20
+	+	63	0
+	+	61	1
+	+	65	98
+	+	50	44
+	+	50	0
+	+	59	98
+	+	50	43
+	+	50	0
+	+	59	97
+	+	56	0
+	+	59	118
+	+	57	0
+	+	59	97
+	+	47	0
+	+	55	0
+	+	59	118
+	+	8	21
+	+	59	97
+
+> ~/ch11notes.txt
+	*	1645657462	0
+	"	25	0
+	^	25	0
+	.	25	0
+	+	30	0
+	+	28	0
+	+	13	120
+	+	26	0
+	+	25	0
+
+> ~/.config/vim/.vimrc
+	*	1645594428	0
+	"	124	0
+	^	103	32
+	.	103	31
+	+	33	40
+	+	31	47
+	+	35	43
+	+	37	0
+	+	31	0
+	+	30	39
+	+	32	44
+	+	30	0
+	+	31	42
+	+	34	43
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	30	0
+	+	31	0
+	+	30	39
+	+	32	44
+	+	33	42
+	+	34	43
+	+	35	42
+	+	102	0
+	+	102	26
+	+	102	27
+	+	103	31
+
+> ~/.lesshst
+	*	1645591843	0
+	"	3	0
+
+> ~/.config/picom/picom.conf
+	*	1645569902	0
+	"	3	0
+
+> ~/.config/polybar/con
+	*	1645569827	0
+	"	233	0
+	^	233	1
+	.	222	39
+	+	20	19
+	+	21	23
+	+	22	19
+	+	23	23
+	+	24	0
+	+	25	18
+	+	33	0
+	+	31	18
+	+	34	31
+	+	35	13
+	+	34	32
+	+	35	32
+	+	40	15
+	+	41	16
+	+	44	21
+	+	57	0
+	+	45	0
+	+	44	5
+	+	55	0
+	+	57	23
+	+	56	20
+	+	60	0
+	+	61	0
+	+	81	0
+	+	83	0
+	+	108	44
+	+	110	0
+	+	111	0
+	+	118	46
+	+	119	0
+	+	101	0
+	+	94	0
+	+	87	0
+	+	121	0
+	+	137	0
+	+	125	0
+	+	135	57
+	+	132	57
+	+	129	57
+	+	127	57
+	+	144	0
+	+	147	51
+	+	148	0
+	+	151	46
+	+	155	51
+	+	160	54
+	+	201	45
+	+	207	34
+	+	208	47
+	+	214	48
+	+	218	44
+	+	219	44
+	+	222	39
+
+> ~/.config/polybar/NERD_tree_1
+	*	1645569297	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/.mozilla/firefox/6lmx1l6s.default-default/chrome/userChrome.css
+	*	1645499709	0
+	"	132	36
+	^	132	37
+	.	132	36
+	+	89	22
+	+	80	0
+	+	89	0
+	+	93	0
+	+	96	16
+	+	104	1
+	+	105	0
+	+	109	0
+	+	110	0
+	+	98	19
+	+	94	12
+	+	110	0
+	+	89	22
+	+	54	22
+	+	54	0
+	+	97	17
+	+	5	31
+	+	55	0
+	+	5	0
+	+	54	15
+	+	44	14
+	+	5	30
+	+	40	0
+	+	53	58
+	+	54	25
+	+	5	0
+	+	54	0
+	+	5	30
+	+	107	32
+	+	102	0
+	+	132	36
+
+> ~/.mozilla/firefox/6lmx1l6s.default-default/chrome/myuc
+	*	1645499654	0
+	"	49	18
+
+> ~/.mozilla/firefox/6lmx1l6s.default-default/chrome/userChrome.css.bkp
+	*	1645499630	0
+	"	5	1
+
+> ~/.config/alacritty.yml
+	*	1645498856	0
+	"	1	0
+	^	152	12
+	.	152	11
+	+	152	11
+
+> ~/.config/suckless/dwm-6.2/config.h
+	*	1645498502	0
+	"	99	76
+	^	15	58
+	.	15	0
+	+	15	0
+
+> ~/.local/scripts/ytsubs.sh
+	*	1645484966	0
+	"	3	98
+	^	3	99
+	.	3	98
+	+	3	98
+
+> ~/.local/share/promptcomments/mean1.txt
+	*	1645418618	0
+	"	1	23
+	^	1	24
+	.	1	23
+	+	1	23
+
+> ~/.local/share/promptcomments/nice2.txt
+	*	1645388415	0
+	"	1	48
+	^	1	49
+	.	1	48
+	+	1	48
+
+> ~/.local/scripts/promptcom.sh
+	*	1645338458	0
+	"	3	0
+	^	4	18
+	.	4	17
+	+	5	46
+	+	4	17
+
+> ~/.local/scripts/logo
+	*	1645336049	0
+	"	1	0
+
+> ~/.local/share/promptcomments/mean2.txt
+	*	1645335524	0
+	"	1	44
+	^	1	45
+	.	1	44
+	+	1	44
+
+> ~/.local/share/promptcomments/mean.txt
+	*	1645335455	0
+	"	1	14
+	^	1	15
+	.	1	15
+	+	1	15
+
+> ~/.local/share/promptcomments/nice3.txt
+	*	1645335430	0
+	"	1	35
+	^	1	36
+	.	1	35
+	+	1	35
+
+> ~/.local/share/promptcomments/nice.txt
+	*	1645335356	0
+	"	1	15
+	^	1	16
+	.	1	16
+	+	1	16
+
+> ~/.local/scripts/sysinfo.sh
+	*	1645332419	0
+	"	107	16
+	^	107	17
+	.	107	16
+	+	92	105
+	+	92	0
+	+	92	33
+	+	92	289
+	+	92	94
+	+	92	315
+	+	92	97
+	+	93	0
+	+	92	0
+	+	89	215
+	+	93	0
+	+	89	32
+	+	89	67
+	+	89	117
+	+	89	65
+	+	89	117
+	+	89	125
+	+	89	209
+	+	89	116
+	+	89	151
+	+	89	160
+	+	89	209
+	+	89	116
+	+	89	179
+	+	89	208
+	+	89	209
+	+	93	27
+	+	89	49
+	+	89	135
+	+	89	63
+	+	89	126
+	+	89	49
+	+	89	136
+	+	89	52
+	+	89	139
+	+	89	51
+	+	89	148
+	+	91	0
+	+	93	111
+	+	93	0
+	+	93	104
+	+	93	170
+	+	93	9
+	+	93	157
+	+	65	6
+	+	93	0
+	+	93	155
+	+	93	0
+	+	93	131
+	+	11	0
+	+	7	82
+	+	9	38
+	+	2	0
+	+	10	1
+	+	11	87
+	+	3	27
+	+	4	0
+	+	3	86
+	+	4	1
+	+	5	1
+	+	6	2
+	+	7	2
+	+	8	2
+	+	9	86
+	+	8	85
+	+	9	85
+	+	10	87
+	+	8	87
+	+	7	87
+	+	6	87
+	+	5	87
+	+	4	87
+	+	3	87
+	+	3	28
+	+	3	88
+	+	36	50
+	+	21	49
+	+	13	38
+	+	60	60
+	+	56	48
+	+	62	72
+	+	87	74
+	+	13	0
+	+	19	0
+	+	34	0
+	+	60	0
+	+	87	0
+	+	107	0
+	+	56	48
+	+	56	0
+	+	107	16
+
+> ~/.local/share/sysinfo.txt
+	*	1645332353	0
+	"	1	1
+
+> /etc/lightdm/lightdm.conf
+	*	1645316365	0
+	"	117	0
+
+> ~/.config/suckless/dwm-6.2/config.def.h
+	*	1645249394	0
+	"	28	0
+	^	15	47
+	.	15	46
+	+	101	39
+	+	15	46
+
+> ~/.config/kitty/kitty.conf
+	*	1645249151	0
+	"	12	24
+	^	12	25
+	.	12	24
+	+	630	17
+	+	705	0
+	+	706	0
+	+	707	14
+	+	707	0
+	+	712	0
+	+	713	0
+	+	714	14
+	+	714	8
+	+	714	7
+	+	714	14
+	+	719	0
+	+	720	0
+	+	721	15
+	+	721	14
+	+	724	0
+	+	725	0
+	+	726	15
+	+	726	14
+	+	729	0
+	+	730	0
+	+	731	15
+	+	731	14
+	+	734	0
+	+	735	0
+	+	736	14
+	+	739	0
+	+	740	0
+	+	741	6
+	+	705	0
+	+	706	0
+	+	708	14
+	+	712	0
+	+	713	0
+	+	714	0
+	+	715	15
+	+	719	0
+	+	720	0
+	+	721	0
+	+	719	0
+	+	720	0
+	+	744	23
+	+	630	0
+	+	691	27
+	+	9	0
+	+	10	0
+	+	11	31
+	+	12	35
+	+	11	44
+	+	12	31
+	+	11	27
+	+	12	27
+	+	11	31
+	+	12	36
+	+	11	44
+	+	12	37
+	+	11	24
+	+	12	24
+
+> /usr/share/fonts/TTF/fonts.dir
+	*	1645248136	0
+	"	54	0
+
+> ~/.vim/colors/jake.vim
+	*	1645243475	0
+	"	2	0
+
+> ~/.config/neofetch/config.conf
+	*	1645221792	0
+	"	476	27
+
+> ~/.inputrc
+	*	1645213529	0
+	"	1	0
+
+> ~/.bash_profile
+	*	1645212460	0
+	"	1	0
+	^	5	7
+	.	5	6
+	+	6	0
+	+	7	0
+	+	5	6
+
+> ~/test.sh
+	*	1645162191	0
+	"	6	3
+	^	6	4
+	.	6	3
+	+	3	0
+	+	7	11
+	+	3	0
+	+	9	0
+	+	8	0
+	+	6	3
+
+> ~/[Vundle] Installer
+	*	1645162137	0
+	"	7	0
+	.	1	0
+	+	17	0
+	+	12	0
+	+	7	0
+	+	1	0
+
+> ~/.local/scripts/archman.sh
+	*	1645161692	0
+	"	20	4
+	^	20	5
+	.	20	4
+	+	20	4
+
+> ~/test
+	*	1645161292	0
+	"	11	0
+	^	11	0
+	.	11	0
+	+	12	0
+	+	11	0
+
+> ~/.mozilla/firefox/6lmx1l6s.default-default/chrome/NERD_tree_1
+	*	1645157380	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/.mozilla/firefox/6lmx1l6s.default-default/chrome/userChrome
+	*	1645157196	0
+	"	1	1
+	^	90	3
+	.	90	2
+	+	90	2
+
+> ~/.dwm/autostart.sh
+	*	1645156375	0
+	"	5	61
+	^	5	62
+	.	5	61
+	+	5	61
+
+> /etc/sv/sddm/run
+	*	1645150334	0
+	"	17	0
+
+> ~/settings.py
+	*	1645134549	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.local/project/python/platform.py
+	*	1645134548	0
+	"	12	0
+
+> /etc/sddm.conf
+	*	1645130369	0
+	"	6	11
+	^	6	14
+	.	6	11
+	+	6	12
+	+	1	9
+	+	4	8
+	+	6	11
+
+> ~/.config/polybar/test
+	*	1645120371	0
+	"	448	14
+	^	448	15
+	.	448	14
+	+	448	14
+
+> /media/.config/polybar/config
+	*	1645119998	0
+	"	96	0
+
 > ~/.config/zsh/.zshrc
-	*	1644714276	0
-	"	45	0
+	*	1645069567	0
+	"	1	0
 	^	58	91
 	.	56	0
 	+	45	18
@@ -427,151 +1545,411 @@ $Left
 	+	56	85
 	+	56	0
 
-> ~/.local/scripts/sysinfo.sh
-	*	1644698480	0
-	"	89	0
-	^	89	0
-	.	88	0
-	+	93	105
-	+	93	0
-	+	93	33
-	+	93	289
-	+	93	94
-	+	93	315
-	+	93	97
-	+	94	0
-	+	93	0
-	+	90	215
-	+	94	0
-	+	90	32
-	+	90	67
-	+	90	117
-	+	90	65
-	+	90	117
-	+	90	125
-	+	90	209
-	+	90	116
-	+	90	151
-	+	90	160
-	+	90	209
-	+	90	116
-	+	90	179
-	+	90	208
-	+	90	209
-	+	94	27
-	+	90	49
-	+	90	135
-	+	90	63
-	+	90	126
-	+	90	49
-	+	90	136
-	+	90	52
-	+	90	139
-	+	90	51
-	+	90	148
-	+	92	0
-	+	94	111
-	+	94	0
-	+	94	104
-	+	94	170
-	+	94	9
-	+	94	157
-	+	66	6
-	+	94	0
-	+	94	155
-	+	94	0
-	+	94	131
-	+	11	0
-	+	7	82
-	+	9	38
+> ~/.local/scripts/changer
+	*	1645047337	0
+	"	13	0
+
+> ~/.local/scripts/herbstchanger
+	*	1645047328	0
+	"	20	0
+
+> /var/tmp/lightdm-webkit2-greeterXXx3nGq0.conf
+	*	1645040075	0
+	"	21	26
+	^	21	27
+	.	21	26
+	+	21	26
+
+> /var/tmp/lightdm-webkit2-greeterXXdAS8F1.conf
+	*	1645039942	0
+	"	21	27
+	^	21	28
+	.	21	27
+	+	21	27
+
+> /var/tmp/lightdm-webkit2-greeterXXo30lAc.conf
+	*	1645039535	0
+	"	21	26
+	^	21	27
+	.	21	26
+	+	21	26
+
+> /var/tmp/lightdm-webkit2-greeterXXDSVkhn.conf
+	*	1645039460	0
+	"	21	27
+	^	21	28
+	.	21	27
+	+	21	27
+
+> /var/tmp/lightdm-webkit2-greeterXXHNg1wP.conf
+	*	1645039102	0
+	"	21	26
+	^	21	27
+	.	21	26
+	+	21	26
+
+> /var/tmp/lightdm-webkit2-greeterXXJVh00Y.conf
+	*	1645039031	0
+	"	21	27
+	^	21	28
+	.	21	27
+	+	21	27
+
+> /etc/lightdm/lightdm-webkit2-greeter.conf
+	*	1645039000	0
+	"	21	27
+	^	21	28
+	.	21	27
+	+	21	27
+
+> ~/.config/sxhkd/sxhkdrc
+	*	1645035267	0
+	"	23	29
+	^	23	30
+	.	23	29
+	+	16	0
+	+	16	17
+	+	16	0
+	+	16	14
+	+	16	6
+	+	14	15
+	+	14	41
+	+	16	20
+	+	14	0
+	+	22	0
+	+	24	0
+	+	23	29
+
+> ~/.local/project/python/settings.py
+	*	1645027886	0
+	"	1	0
+	^	7	53
+	.	7	52
+	+	5	54
+	+	6	0
+	+	7	4
+	+	8	3
+	+	7	5
+	+	8	6
+	+	7	53
+	+	9	1
+	+	7	52
+
+> ~/.local/website/jpedmedia/index.html
+	*	1644989157	0
+	"	111	52
+	^	111	53
+	.	111	53
+	+	1	0
 	+	2	0
-	+	10	1
-	+	11	87
-	+	3	27
+	+	204	0
+	+	206	0
+	+	204	49
+	+	206	0
+	+	21	55
+	+	21	132
+	+	21	39
+	+	26	110
+	+	27	87
+	+	41	52
+	+	29	24
+	+	204	50
+	+	206	76
+	+	53	97
+	+	42	45
+	+	203	234
+	+	203	12
+	+	201	12
+	+	202	12
+	+	200	0
+	+	204	17
+	+	165	0
+	+	158	48
+	+	204	13
 	+	4	0
-	+	3	86
-	+	4	1
-	+	5	1
-	+	6	2
-	+	7	2
-	+	8	2
-	+	9	86
-	+	8	85
-	+	9	85
-	+	10	87
-	+	8	87
-	+	7	87
-	+	6	87
-	+	5	87
-	+	4	87
-	+	3	87
-	+	3	28
-	+	3	88
-	+	36	50
-	+	21	49
-	+	13	38
-	+	61	60
-	+	57	0
-	+	63	72
-	+	88	74
-	+	13	0
+	+	21	43
+	+	21	58
+	+	21	66
+	+	63	50
+	+	62	55
+	+	146	20
+	+	146	14
+	+	146	23
+	+	146	0
+	+	146	23
+	+	18	0
+	+	18	15
+	+	17	39
+	+	20	0
+	+	21	41
+	+	139	0
+	+	135	90
+	+	120	98
+	+	123	84
+	+	124	71
+	+	126	77
+	+	128	87
+	+	129	81
+	+	123	25
+	+	131	74
+	+	132	45
+	+	146	23
+	+	146	22
+	+	146	13
+	+	146	0
+	+	117	21
+	+	117	0
+	+	116	0
+	+	118	73
+	+	132	0
+	+	134	0
+	+	132	0
+	+	131	23
+	+	132	20
+	+	128	0
+	+	126	23
+	+	128	20
+	+	129	20
+	+	133	0
+	+	80	0
+	+	74	31
+	+	75	41
+	+	18	33
+	+	90	25
+	+	114	47
+	+	18	30
 	+	19	0
-	+	34	0
-	+	61	0
-	+	88	0
+	+	26	0
+	+	21	0
+	+	125	103
+	+	144	110
+	+	133	45
+	+	4	61
+	+	5	81
+	+	4	56
+	+	5	56
+	+	111	53
 
-> ~/.local/share/sysinfo.txt
-	*	1644683946	0
-	"	1	84
+> ~/.config/suckless/st-0.8.4/config.h
+	*	1644987993	0
+	"	95	0
 
-> ~/.config/kitty/kitty.conf
-	*	1644683431	0
-	"	728	15
-	^	628	18
-	.	628	0
-	+	628	17
-	+	703	0
-	+	704	0
-	+	705	14
-	+	705	0
-	+	710	0
-	+	711	0
-	+	712	14
-	+	712	8
-	+	712	7
-	+	712	14
-	+	717	0
-	+	718	0
-	+	719	15
-	+	719	14
-	+	722	0
-	+	723	0
-	+	724	15
-	+	724	14
-	+	727	0
-	+	728	0
-	+	729	15
-	+	729	14
-	+	732	0
-	+	733	0
-	+	734	14
-	+	737	0
-	+	738	0
-	+	739	6
-	+	703	0
-	+	704	0
-	+	706	14
-	+	710	0
-	+	711	0
-	+	712	0
-	+	713	15
-	+	717	0
-	+	718	0
-	+	719	0
-	+	717	0
-	+	718	0
-	+	742	23
-	+	628	0
+> ~/.local/project/platform.py
+	*	1644987586	0
+	"	8	20
+	^	8	21
+	.	8	20
+	+	21	0
+	+	16	24
+	+	20	0
+	+	7	5
+	+	8	0
+	+	19	4
+	+	8	20
+
+> ~/test.c
+	*	1644986335	0
+	"	1	2
+	^	2	0
+	.	3	1
+	+	3	1
+
+> ~/.config/suckless/dwm-6.2/dwm.c
+	*	1644986271	0
+	"	1561	0
+
+> ~/dwm-6.2/config.h
+	*	1644986025	0
+	"	1	0
+
+> ~/.local/MomsSite/OakHollow/style2.css
+	*	1644985924	0
+	"	1	0
+
+> ~/.local/MomsSite/OakHollow/index.html
+	*	1644985911	0
+	"	1	0
+	^	30	10
+	.	30	9
+	+	16	82
+	+	35	81
+	+	36	83
+	+	37	85
+	+	16	66
+	+	5	100
+	+	6	62
+	+	26	16
+	+	28	23
+	+	30	9
+
+> ~/.local/scripts/testmenu.sh
+	*	1644985879	0
+	"	1	0
+
+> /var/tmp/Nuclear.XX8wCRzi
+	*	1644968613	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	19
+
+> ~/.config/suckless/dwmblocks/blocks.h
+	*	1644968030	0
+	"	4	1
+	^	4	2
+	.	4	1
+	+	4	1
+
+> ~/.config/i3blocks/config
+	*	1644967980	0
+	"	1	0
+
+> ~/.config/conky/dwm.conkyrc
+	*	1644959652	0
+	"	95	22
+	^	95	23
+	.	95	22
+	+	94	2
+	+	95	22
+
+> ~/.config/conky/conky.conf
+	*	1644958332	0
+	"	143	0
+	^	99	23
+	.	99	22
+	+	98	5
+	+	99	22
+
+> ~/.config/polybar/launch.sh
+	*	1644950440	0
+	"	28	25
+	^	28	26
+	.	28	25
+	+	22	35
+	+	25	40
+	+	28	25
+
+> ~/.vim/colors/badwolf.vim
+	*	1644899799	0
+	"	638	0
+	^	638	0
+	.	637	5
+	+	637	5
+
+> ~/.config/vim/.vimrq
+	*	1644899672	0
+	"	1	0
+
+> ~/.config/bspwm/sxhkdrc
+	*	1644895824	0
+	"	13	23
+	^	13	24
+	.	13	23
+	+	7	5
+	+	16	9
+	+	6	12
+	+	16	14
+	+	20	2
+	+	29	15
+	+	30	6
+	+	33	14
+	+	29	14
+	+	34	12
+	+	37	11
+	+	53	3
+	+	99	33
+	+	37	6
+	+	99	12
+	+	65	24
+	+	130	64
+	+	130	6
+	+	130	0
+	+	130	12
+	+	131	49
+	+	65	20
+	+	77	0
+	+	99	30
+	+	131	45
+	+	25	17
+	+	26	13
+	+	91	3
+	+	30	39
+	+	10	10
+	+	11	0
+	+	13	23
+
+> ~/.config/bspwm/bspwmrc
+	*	1644875463	0
+	"	32	0
+	^	26	38
+	.	26	38
+	+	30	41
+	+	32	32
+	+	35	0
+	+	4	66
+	+	3	9
+	+	4	68
+	+	11	0
+	+	11	20
+	+	11	30
+	+	11	24
+	+	14	34
+	+	4	33
+	+	35	1
+	+	35	0
+	+	35	36
+	+	11	25
+	+	13	0
+	+	35	0
+	+	18	33
+	+	21	36
+	+	11	0
+	+	11	12
+	+	11	1
+	+	5	30
+	+	18	32
+	+	28	0
+	+	18	0
+	+	27	0
+	+	18	35
+	+	21	35
+	+	22	35
+	+	23	35
+	+	18	39
+	+	18	35
+	+	18	40
+	+	19	39
+	+	11	0
+	+	18	0
+	+	11	0
+	+	5	0
+	+	11	0
+	+	5	0
+	+	9	0
+	+	5	0
+	+	5	30
+	+	6	45
+	+	6	55
+	+	7	0
+	+	18	0
+	+	16	39
+	+	19	39
+	+	23	45
+	+	24	45
+	+	26	21
+	+	27	0
+	+	26	38
+
+> ~/.v.config/vim/.vimrc
+	*	1644811686	0
+	"	1	0
+
+> ~/.vim/colors/jarailscast.vim
+	*	1644811557	0
+	"	148	86
+	^	148	87
+	.	148	86
+	+	148	86
 
 > ~/.local/scripts/hotkeys.sh
 	*	1644682710	0
@@ -636,899 +2014,6 @@ $Left
 	+	48	0
 	+	69	0
 
-> ~/.config/vim/.vimrc
-	*	1644634980	0
-	"	31	1
-	^	31	2
-	.	31	0
-	+	33	40
-	+	31	47
-	+	36	0
-	+	38	0
-	+	31	0
-
-> ~/.config/alacritty.yml
-	*	1644634199	0
-	"	152	11
-	^	152	12
-	.	152	11
-	+	152	11
-
 > ~/.vimrc
 	*	1644634095	0
-	"	1	0
-
-> ~/.local/website/jpedmedia/index.html
-	*	1644634077	0
-	"	60	0
-	^	15	10
-	.	5	56
-	+	1	0
-	+	2	0
-	+	206	0
-	+	208	0
-	+	206	49
-	+	208	0
-	+	21	55
-	+	21	132
-	+	21	39
-	+	26	110
-	+	27	87
-	+	41	52
-	+	29	24
-	+	206	50
-	+	208	76
-	+	53	97
-	+	42	45
-	+	205	234
-	+	205	12
-	+	203	12
-	+	204	12
-	+	202	0
-	+	206	17
-	+	167	0
-	+	160	48
-	+	206	13
-	+	4	0
-	+	21	43
-	+	21	58
-	+	21	66
-	+	63	50
-	+	62	55
-	+	148	20
-	+	148	14
-	+	148	23
-	+	148	0
-	+	148	23
-	+	18	0
-	+	18	15
-	+	17	39
-	+	20	0
-	+	21	41
-	+	141	0
-	+	137	90
-	+	122	98
-	+	125	84
-	+	126	71
-	+	128	77
-	+	130	87
-	+	131	81
-	+	125	25
-	+	133	74
-	+	134	45
-	+	148	23
-	+	148	22
-	+	148	13
-	+	148	0
-	+	119	21
-	+	119	0
-	+	118	0
-	+	120	73
-	+	134	0
-	+	136	0
-	+	134	0
-	+	133	23
-	+	134	20
-	+	130	0
-	+	128	23
-	+	130	20
-	+	131	20
-	+	135	0
-	+	80	0
-	+	74	31
-	+	75	41
-	+	18	33
-	+	90	25
-	+	116	47
-	+	18	30
-	+	19	0
-	+	26	0
-	+	21	0
-	+	127	103
-	+	146	110
-	+	135	45
-	+	4	61
-	+	5	81
-	+	4	56
-	+	5	56
-
-> ~/sysinfo.txt
-	*	1644610188	0
-	"	1	137
-
-> ~/.local/scripts/fileupdate.sh
-	*	1644587090	0
-	"	1	0
-
-> ~/.local/website/jpedmedia/style.css
-	*	1644586484	0
-	"	12	0
-	.	30	0
-	+	4	34
-	+	14	41
-	+	16	33
-	+	16	26
-	+	18	23
-	+	16	21
-	+	28	0
-	+	40	0
-	+	14	40
-	+	4	18
-	+	19	0
-	+	176	47
-	+	152	0
-	+	164	0
-	+	152	0
-	+	159	12
-	+	160	43
-	+	164	0
-	+	152	0
-	+	55	0
-	+	51	0
-	+	151	0
-	+	152	0
-	+	70	30
-	+	6	0
-	+	5	26
-	+	173	5
-	+	160	22
-	+	178	58
-	+	178	0
-	+	178	22
-	+	178	39
-	+	178	0
-	+	27	0
-	+	27	39
-	+	27	28
-	+	178	0
-	+	179	70
-	+	179	0
-	+	178	0
-	+	179	0
-	+	178	0
-	+	267	28
-	+	244	0
-	+	243	0
-	+	108	0
-	+	27	0
-	+	16	19
-	+	11	32
-	+	16	37
-	+	17	25
-	+	23	42
-	+	16	0
-	+	14	42
-	+	23	0
-	+	14	0
-	+	23	37
-	+	15	42
-	+	24	32
-	+	11	28
-	+	25	22
-	+	26	26
-	+	26	0
-	+	31	0
-	+	30	0
-
-> ~/.local/website/jpedmedia/blog.html
-	*	1644586478	0
-	"	5	0
-	^	22	9
-	.	24	0
-	+	1	0
-	+	17	57
-	+	17	0
-	+	26	27
-	+	26	7
-	+	17	0
-	+	26	11
-	+	26	17
-	+	27	0
-	+	28	16
-	+	28	36
-	+	28	0
-	+	21	0
-	+	25	0
-	+	22	8
-	+	24	0
-
-> ~/.local/scripts/battery
-	*	1644586463	0
-	"	1	0
-
-> ~/output.txt
-	*	1644556764	0
-	"	1	0
-
-> ~/.local/scripts/schedule.sh
-	*	1644554910	0
-	"	36	0
-	^	1	11
-	.	1	11
-	+	7	29
-	+	1	11
-
-> ~/.config/bspwm/sxhkdrc
-	*	1644535889	0
-	"	11	0
-	^	124	45
-	.	124	45
-	+	7	5
-	+	10	9
-	+	6	12
-	+	10	14
-	+	14	2
-	+	22	15
-	+	23	6
-	+	26	14
-	+	22	14
-	+	27	12
-	+	30	11
-	+	46	3
-	+	92	33
-	+	30	6
-	+	92	12
-	+	58	24
-	+	123	64
-	+	123	6
-	+	123	0
-	+	123	12
-	+	124	49
-	+	58	20
-	+	70	0
-	+	92	30
-	+	124	45
-
-> ~/.config/bspwm/bspwmrc
-	*	1644535854	0
-	"	1	0
-	^	15	37
-	.	15	36
-	+	19	41
-	+	21	32
-	+	24	0
-	+	4	66
-	+	3	9
-	+	4	68
-	+	7	0
-	+	6	20
-	+	7	30
-	+	8	24
-	+	10	34
-	+	4	33
-	+	24	1
-	+	24	0
-	+	24	36
-	+	8	25
-	+	9	0
-	+	24	0
-	+	12	33
-	+	13	33
-	+	15	36
-
-> ~/.config/sxhkd/sxhkdrc
-	*	1644534532	0
-	"	1	0
-
-> ~/.local/scripts/vsp
-	*	1644530347	0
-	"	25	0
-
-> /usr/share/doc/bspwm/examples/sxhkdrc
-	*	1644522426	0
-	"	81	0
-	^	6	14
-	.	6	13
-	+	7	5
-	+	6	13
-
-> ~/.xinitrc
-	*	1644521761	0
-	"	1	0
-
-> ~/.local/scripts/vmach.sh
-	*	1644510038	0
-	"	25	32
-	^	25	33
-	.	25	32
-	+	25	32
-
-> ~/.local/project/platform.py
-	*	1644447470	0
-	"	20	0
-	^	20	0
-	.	20	0
-	+	21	0
-	+	16	24
-	+	20	0
-
-> ~/.vim/colors/gruvbox.vim
-	*	1644445620	0
-	"	92	32
-	^	92	33
-	.	92	32
-	+	90	0
-	+	89	35
-	+	90	31
-	+	89	35
-	+	90	36
-	+	91	35
-	+	92	35
-	+	93	35
-	+	94	35
-	+	95	35
-	+	96	31
-	+	95	31
-	+	94	31
-	+	93	31
-	+	92	31
-	+	91	32
-	+	92	31
-	+	87	0
-	+	92	32
-
-> ~/.local/scripts/testmenu.sh
-	*	1644439206	0
-	"	1	0
-
-> ~/.local/scripts/changer
-	*	1644439148	0
-	"	1	0
-
-> ~/.local/scripts/gpush
-	*	1644437914	0
-	"	28	0
-
-> ~/.local/scripts/picts
-	*	1644437739	0
-	"	4	29
-	^	4	30
-	.	4	29
-	+	4	22
-	+	4	29
-
-> ~/.local/scripts/bspwm-toggle-visibility
-	*	1644437648	0
-	"	2	0
-	^	81	4
-	.	81	3
-	+	2	0
-	+	81	3
-
-> ~/.local/scripts/toggle_conky
-	*	1644435953	0
-	"	2	0
-	^	19	38
-	.	19	37
-	+	32	1
-	+	3	0
-	+	31	160
-	+	1	9
-	+	31	120
-	+	32	0
-	+	19	37
-
-> ~/.local/scripts/set_monitors
-	*	1644435666	0
-	"	1	8
-	^	1	9
-	.	2	0
-	+	24	45
-	+	5	0
-	+	2	0
-
-> /usr/share/doc/bspwm/README.md
-	*	1644431009	0
-	"	106	0
-
-> ~/.config/bspwm/b
-	*	1644381032	0
-	"	1	0
-
-> ~/bspwm-toggle-visibility
-	*	1644379757	0
-	"	37	1
-	^	37	2
-	.	37	1
-	+	37	1
-
-> ~/.local/scripts/scratchtermtoggle.sh
-	*	1644379269	0
-	"	8	16
-	^	8	17
-	.	8	16
-	+	10	1
-	+	9	0
-	+	6	34
-	+	8	16
-
-> ~/.config/herbstluftwm/autostart
-	*	1644376931	0
-	"	1	0
-	^	29	53
-	.	29	52
-	+	52	51
-	+	29	52
-
-> /etc/sddm.conf
-	*	1644373925	0
-	"	6	13
-	^	6	14
-	.	6	13
-	+	6	12
-	+	1	9
-	+	4	8
-	+	6	13
-
-> /usr/share/man/man5/sddm.conf.5
-	*	1644372851	0
-	"	86	0
-	^	86	0
-	.	85	3
-	+	85	3
-
-> /usr/share/sddm/scripts/Xsession
-	*	1644372024	0
-	"	89	0
-
-> ~/NERD_tree_1
-	*	1644372018	0
-	"	9	0
-	.	1	0
-	+	1	0
-
-> ~/.config/picom/picom.conf
-	*	1644371820	0
-	"	18	15
-	^	18	16
-	.	18	16
-	+	18	16
-
-> ~/.config/kitty/NERD_tree_1
-	*	1644350049	0
-	"	42	0
-	.	1	0
-	+	1	0
-
-> ~/Desktop/jpedmedia-master-HTML/HTML/index.html
-	*	1644294820	0
-	"	5	0
-	.	36	0
-	+	36	0
-
-> ~/.local/website/jpedmedia/app.js
-	*	1644284049	0
-	"	5	57
-	^	5	58
-	.	5	57
-	+	70	24
-	+	72	0
-	+	29	1
-	+	27	15
-	+	26	0
-	+	25	0
-	+	29	0
-	+	18	0
-	+	18	20
-	+	18	33
-	+	18	0
-	+	19	0
-	+	20	0
-	+	79	117
-	+	79	240
-	+	79	117
-	+	79	237
-	+	55	95
-	+	59	76
-	+	63	82
-	+	71	15
-	+	71	162
-	+	75	121
-	+	86	0
-	+	20	0
-	+	20	4
-	+	79	213
-	+	80	0
-	+	20	0
-	+	35	0
-	+	45	8
-	+	45	0
-	+	20	0
-	+	101	13
-	+	21	0
-	+	101	0
-	+	5	57
-
-> ~/Desktop/homepage/app.js
-	*	1644198119	0
-	"	8	0
-
-> ~/Desktop/homepage/ua-parser.min.js
-	*	1644198088	0
-	"	1556	0
-
-> ~/Desktop/homepage/index.html
-	*	1644192740	0
-	"	198	4
-	^	15	33
-	.	15	32
-	+	15	32
-
-> ~/.config/zsh/aliases
-	*	1644191762	0
-	"	92	109
-	^	92	110
-	.	92	59
-	+	92	59
-
-> ~/.local/MomsSite/OakHollow/index.html
-	*	1644183006	0
-	"	30	9
-	^	30	10
-	.	30	9
-	+	16	82
-	+	35	81
-	+	36	83
-	+	37	85
-	+	16	66
-	+	5	100
-	+	6	62
-	+	26	16
-	+	28	23
-	+	30	9
-
-> ~/.local/w
-	*	1644099230	0
-	"	1	0
-
-> ~/.local/website/jpedmedia/NERD_tree_1
-	*	1644081468	0
-	"	15	0
-	.	1	0
-	+	1	0
-
-> ~/Desktop/homepage/style.css
-	*	1644081218	0
-	"	142	0
-
-> ~/.local/website/jpedmedia/reset.css
-	*	1644080652	0
-	"	59	0
-
-> ~/.local/MomsSite/OakHollow/NERD_tree_1
-	*	1644038788	0
-	"	40	0
-	.	1	0
-	+	1	0
-
-> ~/.local/MomsSite/OakHollow/style2.css
-	*	1644038765	0
-	"	1	0
-
-> ~/Desktop/jpedmedia-master-HTML/HTML/style.css
-	*	1644036030	0
-	"	10	2
-
-> ~/.local/scripts/windows.sh
-	*	1644003262	0
-	"	29	0
-	^	21	58
-	.	21	0
-	+	19	0
-	+	17	0
-	+	6	0
-	+	13	0
-	+	1	55
-	+	7	56
-	+	1	68
-	+	7	69
-	+	1	43
-	+	7	45
-	+	16	44
-	+	10	38
-	+	16	45
-	+	10	120
-	+	16	96
-	+	1	34
-	+	1	49
-	+	7	63
-	+	1	48
-	+	7	49
-	+	22	17
-	+	23	4
-	+	1	49
-	+	7	50
-	+	1	48
-	+	7	49
-	+	1	49
-	+	7	50
-	+	1	61
-	+	28	12
-	+	1	36
-	+	7	0
-	+	1	35
-	+	1	7
-	+	27	23
-	+	27	0
-	+	1	0
-	+	7	51
-	+	27	0
-	+	27	3
-	+	27	11
-	+	27	19
-	+	27	7
-	+	27	18
-	+	27	0
-	+	27	7
-	+	27	135
-	+	27	18
-	+	16	27
-	+	27	23
-	+	7	54
-	+	16	23
-	+	27	24
-	+	7	0
-	+	3	52
-	+	7	64
-	+	5	0
-	+	27	0
-	+	3	59
-	+	7	50
-	+	3	35
-	+	7	49
-	+	3	36
-	+	28	24
-	+	3	35
-	+	4	3
-	+	5	4
-	+	4	6
-	+	5	2
-	+	4	5
-	+	5	1
-	+	4	0
-	+	5	0
-	+	4	4
-	+	5	4
-	+	8	5
-	+	14	20
-	+	5	0
-	+	4	0
-	+	27	24
-	+	27	0
-	+	7	69
-	+	3	39
-	+	4	3
-	+	22	7
-	+	20	8
-	+	20	7
-	+	22	7
-	+	7	36
-	+	22	7
-	+	21	35
-	+	28	4
-	+	28	0
-	+	22	0
-	+	7	37
-	+	3	0
-	+	7	0
-	+	21	56
-	+	7	37
-	+	21	0
-
-> ~/.local/website/jpedmedia/ua-parser.min.js
-	*	1643955308	0
-	"	1602	0
-
-> ~/.local/scripts/ytsubs.sh
-	*	1643925715	0
-	"	3	128
-
-> ~/.local/MomsSite/OakHollow/style.css
-	*	1643907585	0
-	"	1	0
-
-> ~/Desktop/jpedmedia-master-HTML/HTML/about.html
-	*	1643864036	0
-	"	84	0
-
-> ~/.local/scripts/window.sh
-	*	1643844005	0
-	"	1	0
-
-> ~/.local/scripts/windowcom.sh
-	*	1643844000	0
-	"	1	0
-	^	29	18
-	.	23	17
-	+	15	24
-	+	17	27
-	+	20	0
-	+	35	0
-	+	23	17
-
-> ~/windowcom.sh
-	*	1643822296	0
-	"	15	27
-	^	15	28
-	.	15	27
-	+	1	0
-	+	4	0
-	+	17	15
-	+	37	4
-	+	38	0
-	+	17	7
-	+	18	5
-	+	21	0
-	+	23	15
-	+	17	13
-	+	22	24
-	+	17	14
-	+	24	32
-	+	17	14
-	+	22	34
-	+	26	0
-	+	24	8
-	+	25	0
-	+	28	30
-	+	27	16
-	+	30	35
-	+	35	0
-	+	24	48
-	+	26	40
-	+	28	38
-	+	30	40
-	+	8	0
-	+	14	0
-	+	17	0
-	+	9	14
-	+	10	6
-	+	22	28
-	+	24	32
-	+	17	27
-	+	18	0
-	+	34	6
-	+	35	0
-	+	17	0
-	+	9	0
-	+	21	14
-	+	21	148
-	+	17	26
-	+	20	0
-	+	34	4
-	+	35	0
-	+	15	27
-
-> ~/.bashrc
-	*	1643775889	0
-	"	102	17
-
-> ~/.config/polybar/config
-	*	1643769603	0
-	"	448	0
-	.	386	0
-	+	386	0
-
-> ~/.config/suckless/dmenu-5.0/config.def.h
-	*	1643768638	0
-	"	16	36
-	^	16	37
-	.	16	36
-	+	16	0
-	+	15	62
-	+	15	60
-	+	15	0
-	+	17	51
-	+	19	51
-	+	17	39
-	+	16	47
-	+	17	37
-	+	16	36
-
-> ~/.config/i3/config
-	*	1643754831	0
-	"	1	0
-
-> ~/try.sh
-	*	1643736983	0
-	"	1	48
-	^	1	49
-	.	1	48
-	+	1	96
-	+	1	48
-	+	1	95
-	+	1	48
-	+	3	24
-	+	1	48
-	a	1	48
-
-> ~/saveload.sh
-	*	1643722988	0
-	"	1	12
-	^	16	8
-	.	16	8
-	+	4	0
-	+	5	0
-	+	6	0
-	+	8	0
-	+	6	0
-	+	7	0
-	+	6	0
-	+	10	7
-	+	12	9
-	+	13	8
-	+	16	9
-	+	5	9
-	+	5	0
-	+	1	0
-	+	10	7
-	+	13	8
-	+	16	8
-
-> ~/.local/scripts/dmenu/edit_configs.sh
-	*	1643722945	0
-	"	5	0
-	.	5	0
-	+	5	0
-
-> ~/notes_dfd.txt
-	*	1643687002	0
-	"	1	0
-	^	4	44
-	.	4	43
-	+	4	43
-
-> ~/Documents/school/CSIS-351/usecase.drawio
-	*	1643600017	0
-	"	1	0
-
-> ~/.local/scripts/dmenu/herbst-logout.sh
-	*	1643590442	0
-	"	7	0
-	^	7	31
-	.	7	30
-	+	7	30
-	+	10	19
-	+	7	30
-
-> ~/degree.txt
-	*	1643558701	0
-	"	3	17
-	^	3	18
-	.	1	24
-	+	3	13
-	+	1	26
-	+	3	17
-	+	1	24
-	i	1	0
-
-> ~/.mozilla/firefox/6lmx1l6s.default-default/chrome/userChrome.css
-	*	1643550132	0
-	"	55	16
-	^	55	17
-	.	55	16
-	+	54	18
-	+	55	16
-
-> ~/.local/scripts/dmenu/layouts.sh
-	*	1643521796	0
 	"	1	0

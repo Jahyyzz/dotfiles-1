@@ -9,8 +9,9 @@ hc emit_hook reload
 # AUTOSTART #
 #-----------#
 picom --experimental-backend &
-xwallpaper --zoom ~/Media/Pictures/Wallpapers/Brand/Untitled.png
+xwallpaper --zoom ~/Media/Pictures/Wallpapers/beawesome1.jpg
 xfce4-power-manager &
+polybar mainbar-herbst &
 
 # REMOVE ALL EXISTING KEYBINDINGS #
 #---------------------------------#
@@ -49,12 +50,12 @@ hc keybind $Mod-Control-y spawn ~/.local/scripts/ytsubs.sh
 hc keybind $Mod-Control-c spawn $HOME/scripts/herbstchanger
 hc keybind $Mod-Control-t spawn $HOME/scripts/changer 
 hc keybind $Mod-t spawn alacritty -e ./.local/scripts/schedule.sh
-hc keybind $Mod-w spawn $HOME/.local/scripts/windows.sh
+hc keybind $Mod-w spawn $HOME/.local/scripts/windowcom.sh
 hc keybind $Mod-Shift-v spawn $HOME/.local/scripts/vmach.sh
 
 # run launchers #
 #---------------#
-hc keybind $Mod-Shift-d spawn dmenu_run -p Launch: -fn Monaco -l 5 -g 5 -nb '#222222' -sb '#181818' -sf '#10713c' -nf '#b8b8b8'
+hc keybind $Mod-Shift-d spawn dmenu_run -p Launch: -fn Hermit:bold -l 5 -g 5 -nb '#222222' -sb '#181818' -sf '#528b8b' -nf '#b8b8b8'
 hc keybind $Mod-Shift-r spawn rofi -show drun
 hc keybind $Mod-Control-e spawn rofi -show emoji
 hc keybind $Mod-Shift-e spawn ~/.local/scripts/dmenu/edit_configs.sh
@@ -160,8 +161,8 @@ hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
 hc set frame_gap 0
 
-hc attr theme.normal.color '#10713c'
-hc attr theme.active.color '#afffd7'
+hc attr theme.normal.color '#6d6d6d'
+hc attr theme.active.color '#ffffff'
 hc attr theme.urgent.color orange
 hc attr theme.inner_width 1
 hc attr theme.inner_color black
@@ -173,10 +174,10 @@ hc attr theme.active.inner_color '#3E4A00'
 hc attr theme.active.outer_color '#3E4A00'
 hc attr theme.background_color '#141414'
 
-hc set window_gap 10
+hc set window_gap 20
 hc set frame_padding 0
-hc set smart_window_surroundings off
-hc set smart_frame_surroundings off
+hc set smart_window_surroundings true
+hc set smart_frame_surroundings true
 hc set mouse_recenter_gap 0
 
 # RULES ##

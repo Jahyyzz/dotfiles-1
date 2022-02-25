@@ -27,13 +27,12 @@ let g:rehash256 = 1
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
 
-autocmd BufEnter * colorscheme jake
-autocmd BufEnter .*rc colorscheme nord
-autocmd BufEnter *.html colorscheme jake
-autocmd BufEnter *.sh colorscheme gruvbox
-autocmd BufEnter *.css colorscheme nord
-autocmd BufEnter *.py colorscheme jellybeans
-
+autocmd BufEnter * colorscheme paramount
+autocmd BufEnter .*rc colorscheme paramount
+autocmd BufEnter *.html colorscheme paramount
+autocmd BufEnter *.sh colorscheme paramount
+autocmd BufEnter *.css colorscheme paramount
+autocmd BufEnter *.py colorscheme paramount
 
 "        /-----------------/
 ">>-----/    FUNCTIONS    /------------>
@@ -100,7 +99,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
+Plugin 'dense-analysis/ale'
+Plugin 'vim-syntastic/syntastic'
 call vundle#end()
 filetype plugin indent on
 

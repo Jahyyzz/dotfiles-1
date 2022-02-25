@@ -13,11 +13,17 @@ alt + shift + b
 alt + shift + l
     libreoffice
 
-alt + control + v
-    ./.local/scripts/vmach.sh
+alt + shift + r 
+    rofi -show run
+
+alt + shift + e
+    ./.local/scripts/dmenu/edit_configs.sh
 
 alt + shift + y
     ./.local/scripts/ytsubs.sh
+
+XF86AudioMute
+    volchange.sh volmute
 
 XF86AudioRaiseVolume
     volchange.sh volup
