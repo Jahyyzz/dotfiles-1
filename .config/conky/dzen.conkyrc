@@ -1,0 +1,14 @@
+conky.config = {
+      background = false
+    , own_window = true
+    , own_window_type = 'override'
+    , font = 'Roboto Mono:size=12:Bold'
+    , out_to_console = true
+    , out_to_x = false
+    , update_interval = 1.0
+    , total_run_times = 0
+    , use_spacer = none
+}
+
+conky.text = [[${bar.sh}]]
+#conky.text = [[^fg()    ${time %a %b %d %I:%M%P}   ${battery}]]
