@@ -22,6 +22,9 @@ alt + shift + e
 alt + shift + y
     ./.local/scripts/ytsubs.sh
 
+alt + shift + c
+    ./.local/scripts/dmenu/herbst-logout.sh
+
 XF86AudioMute
     volchange.sh volmute
 

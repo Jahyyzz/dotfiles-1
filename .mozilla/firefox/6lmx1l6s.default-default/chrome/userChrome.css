@@ -19,6 +19,9 @@
   :root[uidensity=compact] #urlbar.megabar {
     --urlbar-toolbar-height: var(--uc-toolbar-height) !important;
   }
+
+  #PanelUI-button { display:none!important; }
+
   /* prevent urlbar overflow on narrow windows */
   /* Dependent on how many items are in navigation toolbar and tabs-/nav-bar ratio - ADJUST AS NEEDED */
   @media screen and (max-width: 350px) {
@@ -86,20 +89,18 @@
   }
   #nav-bar {
     max-height: 32px !important;
-    
-    background: #000000 !important;
-
+    background: #000000 !important
   }
 
 #urlbar {
-    border: 0px solid #10713c !important;
+    border: 2px solid #528b8b !important;
     text-align: center !important;
-    margin-top: 2px !important;
-    margin-left: 5px !important;
+    margin-top: 3px !important;
+    margin-left: -5px !important;
     border-radius: 0px;
     padding: 0px !important;
     color: #ffffff !important;
-    height: 23px;
+    height: 25px;
     font-family: Hermit !important;
     font-size: 12px;
 }
@@ -120,7 +121,7 @@
     font-family: "Hermit" !important;
     font-weight: bold;
     font-size: 14px;
-    border-bottom: 2px solid #b8b8b8 !important;
+    border-bottom: 2px solid #528b8b !important;
     border-left: 0px solid #b8b8b8 !important;
     border-right: 0px solid #b8b8b8 !important;
     border-top: 0px solid #b8b8b8 !important;
@@ -128,7 +129,7 @@
 
 #tabbrowser-tabs {
     width: 100vw !important;
-    color: #10713c !important;
+    color: #528b8b !important;
     background-color: #000000 !important;
     font-family: "Hermit" !important;
 }

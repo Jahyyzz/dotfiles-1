@@ -22,7 +22,7 @@ border-color = ${colors.background}
 padding-left = 0
 padding-right = 3
 
-module-margin-right = 2
+module-margin-right = 1
 module-margin-left = 1
 
 font-0 = Hermit:style=Bold:pixelsize=12;1
@@ -200,7 +200,7 @@ icon-6 = 7;
 icon-7 = 8;
 icon-8 = 9;
 icon-9 = 10;
-icon-default =  
+icon-default = 
 format = <label-state>
 label-monitor = %name%
 
