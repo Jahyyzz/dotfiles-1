@@ -62,16 +62,16 @@ bindsym $mod+Shift+Return exec --no-startup-id kitty
 #--------------------------------------------------------------------------------------------------------------------------------------------#  5
 ## scratchpads ##
 # terminal
-bindsym $mod+Control+Return exec kitty --name dropdown
+bindsym $mod+Control+Return exec kitty --name dropdown & exec st -n scratch -e ncmpcpp & exec kitty --name ranger -e ranger
 bindsym $mod+Return [instance="dropdown"] scratchpad show; move position center
 
 # ncmpcpp
-bindsym $altmod+Control+Return exec st -n scratch -e ncmpcpp
-bindsym $altmod+Return [instance="scratch"] scratchpad show
+#bindsym $altmod+Control+Return exec st -n scratch -e ncmpcpp
+bindsym $altmod+Return [instance="scratch"] scratchpad show; move position center
 
 # ranger
-bindsym $altmod+Shift+Return exec kitty --name ranger -e ranger
-bindsym $altmod+r [instance="ranger"] scratchpad show
+#bindsym $altmod+Shift+Return exec kitty --name ranger -e ranger
+bindsym $altmod+f [instance="ranger"] scratchpad show; move position center
 
 
 #-------------------------------------------------------------------------------------------------------------------------------------------#   6
@@ -82,7 +82,7 @@ bindsym $mod+Shift+q kill
 #-------------------------------------------------------------------------------------------------------------------------------------------#   7
 ## run launchers ##
 # dmenu
-bindsym $mod+shift+d exec --no-startup-id dmenu_run -p Run -l 5 -g 10
+bindsym $mod+shift+d exec --no-startup-id dmenu_run -p Run -l 5 -g 3 -b -nb '#222222' -sb '#000000' -nf '#b8b8b8' -sf '#b8b8b8' -fn 'Hermit'
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # rofi
@@ -220,6 +220,10 @@ exec --no-startup-id picom --experimental-backend &
 
 # power manager
 exec --no-startup-id xfce4-power-manager &
+
+exec --no-startup-id kitty --name dropdown 
+exec --no-startup-id st -n scratch -e ncmpcpp 
+exec --no-startup-id kitty --name ranger -e ranger
 
 
 #-------------------------------------------------------------------------------------------------------------------------------------------#  17
