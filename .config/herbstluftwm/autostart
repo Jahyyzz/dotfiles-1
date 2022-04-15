@@ -9,7 +9,7 @@ hc emit_hook reload
 # AUTOSTART #
 #-----------#
 picom --experimental-backend &
-xwallpaper --zoom ~/Media/Pictures/Wallpapers/beawesome1.jpg
+xwallpaper --zoom ~/Media/Pictures/Wallpapers/keys.jpg
 xfce4-power-manager &
 polybar mainbar-herbst &
 
@@ -50,16 +50,17 @@ hc keybind $Mod-Control-y spawn ~/.local/scripts/ytsubs.sh
 hc keybind $Mod-Control-c spawn $HOME/scripts/herbstchanger
 hc keybind $Mod-Control-t spawn $HOME/scripts/changer 
 hc keybind $Mod-t spawn alacritty -e ./.local/scripts/schedule.sh
-hc keybind $Mod-w spawn $HOME/.local/scripts/windowcom.sh
-hc keybind $Mod-Shift-v spawn $HOME/.local/scripts/vmach.sh
+hc keybind $Mod-Shift-w spawn windows.sh
 
 # run launchers #
 #---------------#
-hc keybind $Mod-Shift-d spawn dmenu_run -p Launch: -fn Hermit:bold -l 5 -g 5 -nb '#222222' -sb '#181818' -sf '#528b8b' -nf '#b8b8b8'
+hc keybind $Mod-Shift-d spawn dmenu_run -p Launch: -fn Hermit:size=10 -l 10 -g 7 -nb '#222222' -sb '#007687' -sf '#222222' -nf '#b8b8b8'
 hc keybind $Mod-Shift-r spawn rofi -show drun
 hc keybind $Mod-Control-e spawn rofi -show emoji
 hc keybind $Mod-Shift-e spawn ~/.local/scripts/dmenu/edit_configs.sh
-hc keybind $Mod-Shift-i spawn ~/.config/.dmenu/browsers.sh
+hc keybind $Mod-Shift-v spawn vmach.sh
+hc keybind $Mod-Shift-i spawn vsp2
+hc keybind $Mod-Control-f spawn st -g=120x34 -e launch.sh 
 
 # browsers #
 #----------#
@@ -118,7 +119,7 @@ done
 
 # layouting #
 #-----------#
-hc keybind $Mod-s spawn ./.local/scripts/new-layout.sh 
+hc keybind $Mod-s spawn new-layout.sh 
 hc keybind $Mod-l spawn ./.local/scripts/load-layout.sh
 hc keybind $Mod-r remove
 hc keybind $Mod-f fullscreen toggle
@@ -183,9 +184,10 @@ hc set mouse_recenter_gap 0
 # RULES ##
 #-------#
 hc unrule -F
-#hc rule class=XTerm tag=3 # move all xterms to tag 3
+hc rule class=st float=on
 hc rule focus=on # normally focus new clients
 hc rule floatplacement=smart
+hc rule float_geometry=250x100
 #hc rule focus=off # normally do not focus new clients
 # give focus to most common terminals
 #hc rule class~'(.*[Rr]xvt.*|.*[Tt]erm|Konsole)' focus=on
