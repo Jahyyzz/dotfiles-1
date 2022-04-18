@@ -2,10 +2,15 @@
 export BROWSER="brave"
 export EDITOR="vim"
 export VISUAL="vim"
-export PATH="$HOME/.local/bin:$HOME/.local/scripts:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.local/scripts:$HOME/.local/scripts/dmenu:$PATH"
 export MYVIMRC="$HOME/.config/vim/.vimrc"
 export VIMINIT="source $MYVIMRC"
 export LESSHISTFILE=-
+export HISTFILE="$HOME/.config/bash/.bash_history"
+
+###---------- SHELL OPTIONS -------###
+
+shopt -s autocd
 
 ###---------- DECORATION ----------###
 
@@ -14,9 +19,9 @@ case "$TERM" in
     xterm-kitty)
         kitty +kitten icat --align left $HOME/Media/Pictures/logo.gif
         printf "< "$(echo $DESKTOP_SESSION | cut -d '/' -f 5)" SYS INFO >\n\n" | tr '[:lower:]' '[:upper:]'
-        printf "|------------------------------------------------------------------------|\n\n"
+        printf "|-------------------------------------------------------------------------|\n\n"
         cat $HOME/.local/share/sysinfo.txt; printf "\n\n"
-        printf "|------------------------------------------------------------------------|\n\n"
+        printf "|-------------------------------------------------------------------------|\n\n"
         ;;
     st-256color)
         pfetch
@@ -78,13 +83,10 @@ alias x="xplr"
 alias sx="sudo xplr"
 
 #fun stuff
-alias cnews="fortune | cowsay"
-alias qnews="fortune | ponysay"
-alias pics="sxiv -t Pictures"
-alias wp="sxiv -t wallpaper"
 alias temp="curl wttr.in/rogers"
 alias colors="msgcat --color=test"
 alias flameshot="flameshot launcher"
+
 
 #git
 alias status="git status"
@@ -139,11 +141,7 @@ alias aft="android-file-transfer"
 #disk
 #alias gparted="sudo gparted"
 
-#website
-alias webserver="ssh root@jpedmedia.com"
-alias nmoupdate="rsync -vrP --delete-after ~/notmyown/public/ root@jpedmedia.com:/var/www/notmyown"
-alias jpedupdate="rsync -vrP --delete-after ~/website/jpedmedia/ root@jpedmedia.com:/var/www/jpedmedia"
-#alias arch="ssh 10.42.0.222"
+
 ###---------- ARCHIVE EXTRACT ----------###
 
 ex ()
