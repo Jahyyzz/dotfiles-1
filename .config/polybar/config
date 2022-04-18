@@ -1,8 +1,56 @@
 [colors]
 background = #000000
 background-alt = #222222
-foreground = #6d6d6d
-foreground-alt = #ffffff
+#foreground = #6d6d6d
+foreground = #ffffff
+foreground-alt = #007687
+
+[bar/mainbar-i3]
+;width = 25%
+offset-y = 0
+width = 100%
+height = 24
+radius = 0
+fixed-center = true
+bottom = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-size = 4
+border-color = ${colors.background}
+
+padding-left = 0
+padding-right = 3
+
+module-margin-right = 1
+module-margin-left = 1
+
+font-0 = Hermit:style=Bold:pixelsize=12;1
+font-1 = unifont:fontformat=truetype:size=12:antialias=false;0
+font-2 = siji:pixelsize=10;1
+font-3 = Font Awesome:style=Regular:pixelsize=12;1
+font-4 = Font Awesome:style=Solid:pixelsize=14;1
+font-5 = Font Awesome:pixelsize=8;1
+font-6 = Font Awesome:style=Regular:pixelsize=10;1
+font-7 = RobotoMono:style=Bold:size=10
+font-8 = Font Awesome:style=Solid:pixelsize=10;1
+
+modules-left = i3 
+modules-center = xwindow
+modules-right = pacman-updates pulseaudio battery wlan date
+
+;tray-position = right
+;tray-padding = 2
+;tray-background = #0063ff
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+
 
 [bar/mainbar-herbst]
 ;width = 25%
@@ -99,7 +147,7 @@ type = internal/date
 interval = 5
 date = " %Y-%m-%d"
 date-alt = " %Y-%m-%d"
-time = %H:%M
+time = %I:%M
 time-alt = %H:%M:%S
 format-prefix = "  "
 format-prefix-foreground = ${colors.foreground-alt}
@@ -228,6 +276,121 @@ label-empty-padding = 3
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
+[module/i3]
+type = internal/i3
+
+; Only show workspaces defined on the same output as the bar
+;
+; Useful if you want to show monitor specific workspaces
+; on different bars
+;
+; Default: false
+pin-workspaces = true
+
+; This will split the workspace name on ':'
+; Default: false
+strip-wsnumbers = true
+
+; Sort the workspaces by index instead of the default
+; sorting that groups the workspaces by output
+; Default: false
+index-sort = true
+
+; Create click handler used to focus workspace
+; Default: true
+enable-click = false
+
+; Create scroll handlers used to cycle workspaces
+; Default: true
+enable-scroll = false
+
+; Wrap around when reaching the first/last workspace
+; Default: true
+wrapping-scroll = false
+
+; Set the scroll cycle direction 
+; Default: true
+reverse-scroll = false
+
+; Use fuzzy (partial) matching on labels when assigning 
+; icons to workspaces
+; Example: code;♚ will apply the icon to all workspaces 
+; containing 'code' in the label
+; Default: false
+fuzzy-match = true
+
+; ws-icon-[0-9]+ = <label>;<icon>
+; NOTE: The <label> needs to match the name of the i3 workspace
+; Neither <label> nor <icon> can contain a semicolon (;)
+ws-icon-0 = 1;♚
+ws-icon-1 = 2;♛
+ws-icon-2 = 3;♜
+ws-icon-3 = 4;♝
+ws-icon-4 = 5;♞
+ws-icon-default = ♟
+; NOTE: You cannot skip icons, e.g. to get a ws-icon-6
+; you must also define a ws-icon-5.
+; NOTE: Icon will be available as the %icon% token inside label-*
+
+; Available tags:
+;   <label-state> (default) - gets replaced with <label-(focused|unfocused|visible|urgent)>
+;   <label-mode> (default)
+format = <label-state> <label-mode>
+
+; Available tokens:
+;   %mode%
+; Default: %mode%
+label-mode = %mode%
+label-mode-padding = 2
+label-mode-background = #e60053
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon% %name%
+label-focused = %index%
+label-focused-foreground = #ffffff
+label-focused-background = #3f3f3f
+label-focused-underline = #fba922
+label-focused-padding = 4
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon% %name%
+label-unfocused = %index%
+label-unfocused-padding = 4
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon% %name%
+label-visible = %index%
+label-visible-underline = #555555
+label-visible-padding = 4
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon% %name%
+label-urgent = %index%
+label-urgent-foreground = #000000
+label-urgent-background = #bd2c40
+label-urgent-padding = 4
+
+; Separator in between workspaces
+label-separator = |
+label-separator-padding = 2
+label-separator-foreground = #ffb52a
+
 [module/pacman-updates]
 type = custom/script
 ;exec = pacman -Qu | wc -l
@@ -242,6 +405,7 @@ format-prefix = "  "
 format-prefix-background = ${colors.background}
 format-prefix-foreground = ${colors.foreground-alt}
 format-prefix-font = 5
+
 
 ; If an inotify event haven't been reported in this many
 ; seconds, manually poll for new values.

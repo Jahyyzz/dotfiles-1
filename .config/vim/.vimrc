@@ -26,6 +26,12 @@ set viminfo+=n~/.config/vim/.viminfo
 let g:rehash256 = 1
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
+iab teh the
+
+" Allow crosshair cursor highlighting.
+hi CursorColumn cterm=NONE ctermbg=0
+nnoremap <Leader>c :set cursorcolumn!<CR>
+
 
 autocmd BufEnter * colorscheme paramount
 autocmd BufEnter .*rc colorscheme paramount
@@ -71,6 +77,10 @@ autocmd FileType sh inoremap ;s #!/bin/bash<Return>
 ">>-----/    REMAPS    /----------->
 "      /--------------/
 
+
+
+nnoremap <leader>u <cmd>"1p<cr>
+cmap w!! w !sudo tee %
 nnoremap <silent> <C-Up> :wincmd k<CR>
 nnoremap <silent> <C-Down> :wincmd j<CR> 
 nnoremap <silent> <C-left> :wincmd h<CR>
@@ -123,6 +133,8 @@ set statusline+=\ Col:\ %c
 set statusline+=\ ::
 set statusline+=\ %n
 set statusline+=\ >>
+
+
 
 augroup BgHighlight
     autocmd!
