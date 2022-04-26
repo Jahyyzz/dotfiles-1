@@ -9,7 +9,7 @@ hc emit_hook reload
 # AUTOSTART #
 #-----------#
 picom --experimental-backend &
-xwallpaper --zoom ~/Media/Pictures/Wallpapers/keys.jpg
+xwallpaper --zoom ~/Media/Pictures/Wallpapers/void5.png
 xfce4-power-manager &
 polybar mainbar-herbst &
 
@@ -24,7 +24,7 @@ Mod=Mod1    # Use alt as the main modifier
 
 # System controls #
 #-----------------#
-hc keybind $Mod-Shift-c spawn ~/.local/scripts/dmenu/herbst-logout.sh
+hc keybind $Mod-Shift-c spawn kitty -T logout -e herbst-logout.sh
 hc keybind $Mod-Control-r reload
 hc keybind $Mod-Shift-q close
 hc keybind $Mod-Shift-Return spawn "${TERMINAL:-kitty}" # 
@@ -44,29 +44,36 @@ hc keybind $Mod-Control-s spawn playerctl stop
 
 # programs #
 # #--------#
-hc keybind $Mod-Shift-w spawn bgd
+hc keybind $Mod-w spawn bgd
 hc keybind $Mod-Control-t spawn alacritty -e "$HOME/scripts/changer"
 hc keybind $Mod-Control-y spawn ~/.local/scripts/ytsubs.sh
 hc keybind $Mod-Control-c spawn $HOME/scripts/herbstchanger
 hc keybind $Mod-Control-t spawn $HOME/scripts/changer 
 hc keybind $Mod-t spawn alacritty -e ./.local/scripts/schedule.sh
-hc keybind $Mod-Shift-w spawn windows.sh
+hc keybind $Mod-Shift-w spawn kitty -T windows -e windows.sh
 
 # run launchers #
 #---------------#
-hc keybind $Mod-Shift-d spawn dmenu_run -p Launch: -fn Hermit:size=10 -l 10 -g 7 -nb '#222222' -sb '#007687' -sf '#222222' -nf '#b8b8b8'
+#hc keybind $Mod-Control-f spawn dmenu_run -p Launch: -fn Hermit:size=10 -l 10 -g 7 -nb '#222222' -sb '#007687' -sf '#222222' -nf '#b8b8b8'
 hc keybind $Mod-Shift-r spawn rofi -show drun
 hc keybind $Mod-Control-e spawn rofi -show emoji
-hc keybind $Mod-Shift-e spawn ~/.local/scripts/dmenu/edit_configs.sh
 hc keybind $Mod-Shift-v spawn vmach.sh
-hc keybind $Mod-Shift-i spawn vsp2
-hc keybind $Mod-Control-f spawn st -g=120x34 -e launch.sh 
+hc keybind $Mod-Shift-i spawn kitty -T vsp2 -e vsp2
+hc keybind $Mod-Shift-d spawn kitty -T launch.sh -e launch.sh 
+hc keybind $Mod-Shift-e spawn kitty -T configs -e edit_configs.sh
 
 # browsers #
 #----------#
 hc keybind $Mod-Shift-b spawn brave-browser-stable
 hc keybind $Mod-Shift-a spawn firefox
-hc keybind $Mod-q spawn qutebrowser
+
+# scratchpads #
+#-------------#
+hc keybind $Mod-Return spawn scratch scratchpad 
+hc keybind $Mod-Control-f spawn scratch FM
+hc keybind $Mod-q spawn scratch2 qutebrowser 
+hc keybind $Mod-Control-Return spawn scratchpad
+hc keybind $Mod-m spawn scratch Mail
 
 # focusing client #
 #-----------------#s
@@ -84,9 +91,6 @@ hc keybind $Mod-Shift-Right shift right
 #------------------#
 hc keybind $Mod-u       split   bottom  0.6
 hc keybind $Mod-o       split   right   0.6
-
-hc keybind $Mod-Return       spawn scratchpad
-hc keybind $Mod-B            spawn scratchpad2
 
 # let the current frame explode into subframes #
 #----------------------------------------------#
@@ -162,37 +166,53 @@ hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
 hc set frame_gap 0
 
-hc attr theme.normal.color '#6d6d6d'
 hc attr theme.active.color '#ffffff'
+hc attr theme.normal.color '#007687'
 hc attr theme.urgent.color orange
 hc attr theme.inner_width 1
 hc attr theme.inner_color black
-hc attr theme.border_width 4
-hc attr theme.floating.border_width 0
+hc attr theme.border_width 2
+hc attr theme.active.border_width 2
+hc attr theme.floating.border_width 2
+hc attr theme.floating.color '#b8b8b8'
 hc attr theme.floating.outer_width 1
 hc attr theme.floating.outer_color black
-hc attr theme.active.inner_color '#3E4A00'
-hc attr theme.active.outer_color '#3E4A00'
+#hc attr theme.active.inner_color '#3E4A00'
+#hc attr theme.active.outer_color '#3E4A00'
 hc attr theme.background_color '#141414'
 
-hc set window_gap 20
+hc set window_gap 10
 hc set frame_padding 0
-hc set smart_window_surroundings true
-hc set smart_frame_surroundings true
+hc set smart_window_surroundings false
+hc set smart_frame_surroundings false
 hc set mouse_recenter_gap 0
 
-# RULES ##
+# RULES #
 #-------#
 hc unrule -F
-hc rule class=st float=on
+
+# MENUS #
+#-------#
+hc rule title~'launch.sh' floating=on floatplacement=center floating_geometry=600x800
+hc rule title~'vsp2' floating=on floatplacement=center floating_geometry=375x1000
+hc rule title~'configs' floating=on floatplacement=center floating_geometry=375x600
+hc rule title~'windows' floating=on floatplacement=center floating_geometry=600x300
+hc rule title~'logout' floating=on floatplacement=center floating_geometry=320x200
+
+# SCRATCHPADS #
+#-------------#
+hc rule title~'scratchpad' floating=on floatplacement=center floating_geometry=1000x500
+hc rule title~'FM' floating=on floatplacement=center floating_geometry=1000x800
+hc rule class~'qutebrowser' floating=on floatplacement=center floating_geometry=1800x1000
+hc rule title~'Mail' floating=on floatplacement=center floating_geometry=1500x800
+
 hc rule focus=on # normally focus new clients
-hc rule floatplacement=smart
-hc rule float_geometry=250x100
+hc rule floatplacement=center
+#hc rule float_geometry=250x100
 #hc rule focus=off # normally do not focus new clients
 # give focus to most common terminals
-#hc rule class~'(.*[Rr]xvt.*|.*[Tt]erm|Konsole)' focus=on
-hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' floating=on
-hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
+hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' floating=on floatplacement=center
+hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on floatplacement=smart
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
 
 hc set tree_style '╾│ ├└╼─┐'
