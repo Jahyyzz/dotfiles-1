@@ -23,7 +23,9 @@ set echo-control-characters off
 # Bash Keybindings
 "\C-f":"cd /home/jake/.config/"
 "\C-b":"cd ..\n"
-"\C-h":"cd\n"
+"\C-h":"cd ~\n"
 "\C-w":"webserver\n"
 "\es":"\C-asudo \C-e"
 "\C-x":"sourceb\n clear\n"
+"\C-z": "bg\n"
+"\ea": "myawk\n"
