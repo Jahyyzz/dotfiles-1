@@ -9,9 +9,27 @@ hc emit_hook reload
 # AUTOSTART #
 #-----------#
 picom --experimental-backend &
-xwallpaper --zoom ~/Media/Pictures/Wallpapers/void5.png
+xwallpaper --zoom $HOME/.config/herbstluftwm/void5.png
+#xwallpaper --zoom $HOME/.config/awesome/themes/powerarrow/wall.png
 xfce4-power-manager &
-polybar mainbar-herbst &
+mpd --no-daemon $HOME/.config/mpd/mpd.conf &
+mpDris2 -c $HOME/.config/mpDris2/mpDris2.conf &
+./panel.sh
+nm-applet &
+/usr/bin/gnome-keyring-daemon --start --components=secrets
+batticon(){
+    batt="$(pidof cbatticon)"
+    if [[ "$batt" < 1 ]];
+    then 
+        cbatticon -i symbolic /sys/class/power_supply/BAT0 &
+    else
+        pkill cbatticon;
+        cbatticon -i symbloic /sys/class/power_supply/BAT0 &
+    fi
+}
+batticon
+/usr/bin/emacs --daemon
+
 
 # REMOVE ALL EXISTING KEYBINDINGS #
 #---------------------------------#
@@ -28,7 +46,6 @@ hc keybind $Mod-Shift-c spawn kitty -T logout -e herbst-logout.sh
 hc keybind $Mod-Control-r reload
 hc keybind $Mod-Shift-q close
 hc keybind $Mod-Shift-Return spawn "${TERMINAL:-kitty}" # 
-hc keybind $Mod-Shift-k spawn kitty
 
 # multimedia #
 #------------#
@@ -47,9 +64,7 @@ hc keybind $Mod-Control-s spawn playerctl stop
 hc keybind $Mod-w spawn bgd
 hc keybind $Mod-Control-t spawn alacritty -e "$HOME/scripts/changer"
 hc keybind $Mod-Control-y spawn ~/.local/scripts/ytsubs.sh
-hc keybind $Mod-Control-c spawn $HOME/scripts/herbstchanger
-hc keybind $Mod-Control-t spawn $HOME/scripts/changer 
-hc keybind $Mod-t spawn alacritty -e ./.local/scripts/schedule.sh
+hc keybind $Mod-Shift-t spawn alacritty -e ./.local/scripts/schedule.sh
 hc keybind $Mod-Shift-w spawn kitty -T windows -e windows.sh
 
 # run launchers #
@@ -57,7 +72,7 @@ hc keybind $Mod-Shift-w spawn kitty -T windows -e windows.sh
 #hc keybind $Mod-Control-f spawn dmenu_run -p Launch: -fn Hermit:size=10 -l 10 -g 7 -nb '#222222' -sb '#007687' -sf '#222222' -nf '#b8b8b8'
 hc keybind $Mod-Shift-r spawn rofi -show drun
 hc keybind $Mod-Control-e spawn rofi -show emoji
-hc keybind $Mod-Shift-v spawn vmach.sh
+hc keybind $Mod-Shift-v spawn kitty -T vmach.sh -e vmach.sh
 hc keybind $Mod-Shift-i spawn kitty -T vsp2 -e vsp2
 hc keybind $Mod-Shift-d spawn kitty -T launch.sh -e launch.sh 
 hc keybind $Mod-Shift-e spawn kitty -T configs -e edit_configs.sh
@@ -66,6 +81,9 @@ hc keybind $Mod-Shift-e spawn kitty -T configs -e edit_configs.sh
 #----------#
 hc keybind $Mod-Shift-b spawn brave-browser-stable
 hc keybind $Mod-Shift-a spawn firefox
+hc keybind $Mod-Shift-n spawn nyxt
+
+hc keybind Print spawn flameshot gui
 
 # scratchpads #
 #-------------#
@@ -74,6 +92,8 @@ hc keybind $Mod-Control-f spawn scratch FM
 hc keybind $Mod-q spawn scratch2 qutebrowser 
 hc keybind $Mod-Control-Return spawn scratchpad
 hc keybind $Mod-m spawn scratch Mail
+hc keybind $Mod-t spawn scratch Music
+hc keybind $Mod-Control-c spawn scratch2 Calc
 
 # focusing client #
 #-----------------#s
@@ -123,8 +143,8 @@ done
 
 # layouting #
 #-----------#
-hc keybind $Mod-s spawn new-layout.sh 
-hc keybind $Mod-l spawn ./.local/scripts/load-layout.sh
+hc keybind $Mod-Shift-s spawn new-layout.sh 
+hc keybind $Mod-Shift-l spawn ./.local/scripts/load-layout.sh
 hc keybind $Mod-r remove
 hc keybind $Mod-f fullscreen toggle
 hc keybind $Mod-Shift-f set_attr clients.focus.floating toggle
@@ -152,44 +172,17 @@ hc mousebind $Mod-Button1 move
 hc mousebind $Mod-Button2 zoom
 hc mousebind $Mod-Button3 resize
 
-# THEME #
-#-------#
-hc attr theme.tiling.reset 1
-hc attr theme.floating.reset 1
-hc set frame_border_active_color '#222222'
-hc set frame_border_normal_color '#101010'
-hc set frame_bg_normal_color '#565656'
-hc set frame_bg_active_color '#345F0C'
-hc set frame_border_width 1
-hc set always_show_frame 0
-hc set frame_bg_transparent 1
-hc set frame_transparent_width 0
-hc set frame_gap 0
-
-hc attr theme.active.color '#ffffff'
-hc attr theme.normal.color '#007687'
-hc attr theme.urgent.color orange
-hc attr theme.inner_width 1
-hc attr theme.inner_color black
-hc attr theme.border_width 2
-hc attr theme.active.border_width 2
-hc attr theme.floating.border_width 2
-hc attr theme.floating.color '#b8b8b8'
-hc attr theme.floating.outer_width 1
-hc attr theme.floating.outer_color black
-#hc attr theme.active.inner_color '#3E4A00'
-#hc attr theme.active.outer_color '#3E4A00'
-hc attr theme.background_color '#141414'
-
-hc set window_gap 10
-hc set frame_padding 0
-hc set smart_window_surroundings false
-hc set smart_frame_surroundings false
-hc set mouse_recenter_gap 0
-
 # RULES #
 #-------#
 hc unrule -F
+
+# THEME #
+#-------#
+
+if [ -f ~/.config/herbstluftwm/HLWM_themes/theme ];
+then
+    . ~/.config/herbstluftwm/HLWM_themes/theme
+fi
 
 # MENUS #
 #-------#
@@ -198,6 +191,7 @@ hc rule title~'vsp2' floating=on floatplacement=center floating_geometry=375x100
 hc rule title~'configs' floating=on floatplacement=center floating_geometry=375x600
 hc rule title~'windows' floating=on floatplacement=center floating_geometry=600x300
 hc rule title~'logout' floating=on floatplacement=center floating_geometry=320x200
+hc rule title~'vmach.sh' floating=on floatplacement=center floating_geometry=375x500
 
 # SCRATCHPADS #
 #-------------#
@@ -205,6 +199,8 @@ hc rule title~'scratchpad' floating=on floatplacement=center floating_geometry=1
 hc rule title~'FM' floating=on floatplacement=center floating_geometry=1000x800
 hc rule class~'qutebrowser' floating=on floatplacement=center floating_geometry=1800x1000
 hc rule title~'Mail' floating=on floatplacement=center floating_geometry=1500x800
+hc rule title~'Music' floating=on floatplacement=center floating_geometry=1200x800
+hc rule title~'Calc' floating=on floatplacement=center floating_geometry=1720x650
 
 hc rule focus=on # normally focus new clients
 hc rule floatplacement=center
@@ -231,3 +227,4 @@ for monitor in $(hc list_monitors | cut -d: -f1) ; do
     "$panel" "$monitor" &
 done
 hc split vertical 0.6; hc remove
+
